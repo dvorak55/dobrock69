@@ -4248,7 +4248,7 @@
   )
 
   (module miyajima:HDMI_A_Sofng_019S (layer F.Cu) (tedit 5F709EBE) (tstamp 5F7138C9)
-    (at 260 101)
+    (at 241.89 91.965)
     (descr "HDMI, Type A, THT, 0.5mm pitch, 19 ckt, right angle (http://www.sofng.com/uploads/soft/180412/2-1P412152130.pdf)")
     (tags "hdmi micro type d right angle tht")
     (path /60035CF5)
