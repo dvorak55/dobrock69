@@ -1823,7 +1823,7 @@ AR Path="/5EB180EA/5FD8BA3A" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FD8BA3A" Ref="MX?"  Part="1" 
 F 0 "MX60" H 3308 4298 60  0000 C CNN
 F 1 "MX-NoLED" H 3308 4224 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 2650 4050 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 2650 4050 60  0001 C CNN
 F 3 "" H 2650 4050 60  0001 C CNN
 	1    3275 4075
 	1    0    0    -1  
@@ -1921,7 +1921,7 @@ AR Path="/5EB180EA/5FD8BA7A" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FD8BA7A" Ref="MX?"  Part="1" 
 F 0 "MX59" H 2858 4298 60  0000 C CNN
 F 1 "MX-NoLED" H 2858 4224 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 2200 4050 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 2200 4050 60  0001 C CNN
 F 3 "" H 2200 4050 60  0001 C CNN
 	1    2825 4075
 	1    0    0    -1  
@@ -1961,7 +1961,7 @@ AR Path="/5EB180EA/5FD8BA93" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FD8BA93" Ref="MX?"  Part="1" 
 F 0 "MX61" H 3808 4298 60  0000 C CNN
 F 1 "MX-NoLED" H 3808 4224 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 3150 4050 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 3150 4050 60  0001 C CNN
 F 3 "" H 3150 4050 60  0001 C CNN
 	1    3775 4075
 	1    0    0    -1  
@@ -3236,7 +3236,7 @@ AR Path="/5EB180EA/5FF64098" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FF64098" Ref="MX?"  Part="1" 
 F 0 "MX64" H 9808 4373 60  0000 C CNN
 F 1 "MX-NoLED" H 9808 4299 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 9150 4125 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 9150 4125 60  0001 C CNN
 F 3 "" H 9150 4125 60  0001 C CNN
 	1    9775 4150
 	1    0    0    -1  
@@ -3268,7 +3268,7 @@ AR Path="/5EB180EA/5FF640AD" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FF640AD" Ref="MX?"  Part="1" 
 F 0 "MX66" H 10833 4373 60  0000 C CNN
 F 1 "MX-NoLED" H 10833 4299 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 10175 4125 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 10175 4125 60  0001 C CNN
 F 3 "" H 10175 4125 60  0001 C CNN
 	1    10800 4150
 	1    0    0    -1  
@@ -3391,7 +3391,7 @@ AR Path="/5EB180EA/5FF640FC" Ref="MX?"  Part="1"
 AR Path="/5F706D19/5FF640FC" Ref="MX?"  Part="1" 
 F 0 "MX65" H 10333 4373 60  0000 C CNN
 F 1 "MX-NoLED" H 10333 4299 20  0000 C CNN
-F 2 "kbd:CherryMX_Choc_Hotswap" H 9675 4125 60  0001 C CNN
+F 2 "kbd:Choc_Hotswap" H 9675 4125 60  0001 C CNN
 F 3 "" H 9675 4125 60  0001 C CNN
 	1    10300 4150
 	1    0    0    -1  
