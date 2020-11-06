@@ -1,0 +1,3901 @@
+EESchema Schematic File Version 4
+LIBS:dobrock69-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7100 9300 2    50   Input ~ 0
+NRST
+Text GLabel 7100 9200 2    50   Input ~ 0
+SWCLK
+Text GLabel 7100 9100 2    50   Input ~ 0
+SWDIO
+$Comp
+L power:GND #PWR?
+U 1 1 5F7715EF
+P 7325 8825
+AR Path="/5F706D19/5F7715EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F7715EF" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 7325 8575 50  0001 C CNN
+F 1 "GND" H 7330 8652 50  0000 C CNN
+F 2 "" H 7325 8825 50  0001 C CNN
+F 3 "" H 7325 8825 50  0001 C CNN
+	1    7325 8825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 8825 7100 8825
+$Comp
+L power:GND #PWR?
+U 1 1 5F7715F6
+P 15150 2650
+AR Path="/5F706D19/5F7715F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F7715F6" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 15150 2400 50  0001 C CNN
+F 1 "GND" H 15155 2477 50  0000 C CNN
+F 2 "" H 15150 2650 50  0001 C CNN
+F 3 "" H 15150 2650 50  0001 C CNN
+	1    15150 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 15700 2000 2    50   Input ~ 0
+D-
+Text GLabel 15700 2100 2    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR?
+U 1 1 5F7715FE
+P 10775 8250
+AR Path="/5F706D19/5F7715FE" Ref="#PWR?"  Part="1" 
+AR Path="/5F7715FE" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 10775 8000 50  0001 C CNN
+F 1 "GND" H 10780 8077 50  0000 C CNN
+F 2 "" H 10775 8250 50  0001 C CNN
+F 3 "" H 10775 8250 50  0001 C CNN
+	1    10775 8250
+	1    0    0    -1  
+$EndComp
+Text GLabel 11625 7850 1    50   Input ~ 0
+SWDIO
+Text GLabel 11625 7950 3    50   Input ~ 0
+SWCLK
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB?
+U 1 1 5F771606
+P 13900 2150
+AR Path="/5F706D19/5F771606" Ref="USB?"  Part="1" 
+AR Path="/5F771606" Ref="USB1"  Part="1" 
+F 0 "USB1" H 13550 2800 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 13500 2125 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 13900 2150 60  0001 C CNN
+F 3 "" H 13900 2150 60  0001 C CNN
+	1    13900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F77160C
+P 14050 2900
+AR Path="/5F706D19/5F77160C" Ref="#PWR?"  Part="1" 
+AR Path="/5F77160C" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 14050 2650 50  0001 C CNN
+F 1 "GND" H 14055 2727 50  0000 C CNN
+F 2 "" H 14050 2900 50  0001 C CNN
+F 3 "" H 14050 2900 50  0001 C CNN
+	1    14050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 1600 14175 1600
+Wire Wire Line
+	14175 1600 14175 2700
+Wire Wire Line
+	14000 2700 14175 2700
+Connection ~ 14175 2700
+Wire Wire Line
+	14175 2700 14175 2800
+Wire Wire Line
+	14000 2800 14050 2800
+NoConn ~ 14000 1800
+NoConn ~ 14000 2400
+Wire Wire Line
+	14000 1900 14050 1900
+Wire Wire Line
+	14050 1900 14050 2450
+Wire Wire Line
+	14050 2450 14600 2450
+Wire Wire Line
+	14600 2675 14475 2675
+$Comp
+L Device:R_Small R?
+U 1 1 5F77161E
+P 14375 2675
+AR Path="/5F706D19/5F77161E" Ref="R?"  Part="1" 
+AR Path="/5F77161E" Ref="R2"  Part="1" 
+F 0 "R2" V 14250 2675 50  0000 C CNN
+F 1 "5.1k" V 14300 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14375 2675 50  0001 C CNN
+F 3 "~" H 14375 2675 50  0001 C CNN
+	1    14375 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F771624
+P 14450 2900
+AR Path="/5F706D19/5F771624" Ref="R?"  Part="1" 
+AR Path="/5F771624" Ref="R3"  Part="1" 
+F 0 "R3" V 14300 2900 50  0000 C CNN
+F 1 "5.1k" V 14375 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14450 2900 50  0001 C CNN
+F 3 "~" H 14450 2900 50  0001 C CNN
+	1    14450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F77162A
+P 14275 2900
+AR Path="/5F706D19/5F77162A" Ref="#PWR?"  Part="1" 
+AR Path="/5F77162A" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 14275 2650 50  0001 C CNN
+F 1 "GND" H 14280 2727 50  0000 C CNN
+F 2 "" H 14275 2900 50  0001 C CNN
+F 3 "" H 14275 2900 50  0001 C CNN
+	1    14275 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 2675 14275 2900
+Wire Wire Line
+	14275 2900 14350 2900
+Connection ~ 14275 2900
+Wire Wire Line
+	14125 1700 14000 1700
+Wire Wire Line
+	14125 2600 14000 2600
+Wire Wire Line
+	14125 1700 14125 2600
+Wire Wire Line
+	14000 2100 14325 2100
+Wire Wire Line
+	14325 2100 14325 2300
+Wire Wire Line
+	14325 2300 14000 2300
+Wire Wire Line
+	14000 2200 14250 2200
+Wire Wire Line
+	14250 2200 14250 2000
+Wire Wire Line
+	14250 2000 14000 2000
+Connection ~ 14325 2100
+Connection ~ 14250 2000
+Connection ~ 14125 1700
+Wire Wire Line
+	14050 2900 14050 2800
+Connection ~ 14050 2800
+Wire Wire Line
+	14050 2800 14175 2800
+Wire Wire Line
+	14600 2675 14600 2450
+Wire Wire Line
+	14550 2900 14550 2500
+Wire Wire Line
+	14550 2500 14000 2500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771645
+P 3275 1450
+AR Path="/5E22FDCD/5F771645" Ref="MX?"  Part="1" 
+AR Path="/5F771645" Ref="MX5"  Part="1" 
+AR Path="/5EB180EA/5F771645" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771645" Ref="MX?"  Part="1" 
+F 0 "MX5" H 3308 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 3308 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2650 1425 60  0001 C CNN
+F 3 "" H 2650 1425 60  0001 C CNN
+	1    3275 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F77164B
+P 3150 1700
+AR Path="/5E22FDCD/5F77164B" Ref="D?"  Part="1" 
+AR Path="/5F77164B" Ref="D5"  Part="1" 
+AR Path="/5EB180EA/5F77164B" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F77164B" Ref="D?"  Part="1" 
+F 0 "D5" H 3175 1775 50  0000 R CNN
+F 1 "SOD-123" H 3575 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3150 1700 50  0001 C CNN
+F 3 "~" V 3150 1700 50  0001 C CNN
+	1    3150 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 1600 3225 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771652
+P 3775 1450
+AR Path="/5E22FDCD/5F771652" Ref="MX?"  Part="1" 
+AR Path="/5F771652" Ref="MX6"  Part="1" 
+AR Path="/5EB180EA/5F771652" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771652" Ref="MX?"  Part="1" 
+F 0 "MX6" H 3808 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 3808 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3150 1425 60  0001 C CNN
+F 3 "" H 3150 1425 60  0001 C CNN
+	1    3775 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771658
+P 3650 1700
+AR Path="/5E22FDCD/5F771658" Ref="D?"  Part="1" 
+AR Path="/5F771658" Ref="D6"  Part="1" 
+AR Path="/5EB180EA/5F771658" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771658" Ref="D?"  Part="1" 
+F 0 "D6" H 3675 1775 50  0000 R CNN
+F 1 "SOD-123" H 4075 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3650 1700 50  0001 C CNN
+F 3 "~" V 3650 1700 50  0001 C CNN
+	1    3650 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 1600 3725 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F77165F
+P 3275 2125
+AR Path="/5E22FDCD/5F77165F" Ref="MX?"  Part="1" 
+AR Path="/5F77165F" Ref="MX20"  Part="1" 
+AR Path="/5EB180EA/5F77165F" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F77165F" Ref="MX?"  Part="1" 
+F 0 "MX20" H 3308 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 3308 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2650 2100 60  0001 C CNN
+F 3 "" H 2650 2100 60  0001 C CNN
+	1    3275 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771665
+P 3150 2375
+AR Path="/5E22FDCD/5F771665" Ref="D?"  Part="1" 
+AR Path="/5F771665" Ref="D20"  Part="1" 
+AR Path="/5EB180EA/5F771665" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771665" Ref="D?"  Part="1" 
+F 0 "D20" H 3175 2450 50  0000 R CNN
+F 1 "SOD-123" H 3575 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3150 2375 50  0001 C CNN
+F 3 "~" V 3150 2375 50  0001 C CNN
+	1    3150 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2275 3225 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F77166C
+P 3775 2125
+AR Path="/5E22FDCD/5F77166C" Ref="MX?"  Part="1" 
+AR Path="/5F77166C" Ref="MX21"  Part="1" 
+AR Path="/5EB180EA/5F77166C" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F77166C" Ref="MX?"  Part="1" 
+F 0 "MX21" H 3808 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 3808 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3150 2100 60  0001 C CNN
+F 3 "" H 3150 2100 60  0001 C CNN
+	1    3775 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771672
+P 3650 2375
+AR Path="/5E22FDCD/5F771672" Ref="D?"  Part="1" 
+AR Path="/5F771672" Ref="D21"  Part="1" 
+AR Path="/5EB180EA/5F771672" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771672" Ref="D?"  Part="1" 
+F 0 "D21" H 3675 2450 50  0000 R CNN
+F 1 "SOD-123" H 4075 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3650 2375 50  0001 C CNN
+F 3 "~" V 3650 2375 50  0001 C CNN
+	1    3650 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2275 3725 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771679
+P 3275 2775
+AR Path="/5E22FDCD/5F771679" Ref="MX?"  Part="1" 
+AR Path="/5F771679" Ref="MX34"  Part="1" 
+AR Path="/5EB180EA/5F771679" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771679" Ref="MX?"  Part="1" 
+F 0 "MX34" H 3308 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 3308 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2650 2750 60  0001 C CNN
+F 3 "" H 2650 2750 60  0001 C CNN
+	1    3275 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F77167F
+P 3150 3025
+AR Path="/5E22FDCD/5F77167F" Ref="D?"  Part="1" 
+AR Path="/5F77167F" Ref="D34"  Part="1" 
+AR Path="/5EB180EA/5F77167F" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F77167F" Ref="D?"  Part="1" 
+F 0 "D34" H 3175 3100 50  0000 R CNN
+F 1 "SOD-123" H 3575 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3150 3025 50  0001 C CNN
+F 3 "~" V 3150 3025 50  0001 C CNN
+	1    3150 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2925 3225 2925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771686
+P 3275 3425
+AR Path="/5E22FDCD/5F771686" Ref="MX?"  Part="1" 
+AR Path="/5F771686" Ref="MX48"  Part="1" 
+AR Path="/5EB180EA/5F771686" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771686" Ref="MX?"  Part="1" 
+F 0 "MX48" H 3308 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 3308 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 2650 3400 60  0001 C CNN
+F 3 "" H 2650 3400 60  0001 C CNN
+	1    3275 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F77168C
+P 3150 3675
+AR Path="/5E22FDCD/5F77168C" Ref="D?"  Part="1" 
+AR Path="/5F77168C" Ref="D48"  Part="1" 
+AR Path="/5EB180EA/5F77168C" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F77168C" Ref="D?"  Part="1" 
+F 0 "D48" H 3175 3750 50  0000 R CNN
+F 1 "SOD-123" H 3575 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3150 3675 50  0001 C CNN
+F 3 "~" V 3150 3675 50  0001 C CNN
+	1    3150 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 3575 3225 3575
+Wire Wire Line
+	3425 1025 3425 1400
+Connection ~ 3425 1400
+Wire Wire Line
+	3425 1400 3425 2075
+Connection ~ 3425 2075
+Wire Wire Line
+	3425 2075 3425 2725
+Wire Wire Line
+	3925 1025 3925 1400
+Connection ~ 3925 1400
+Wire Wire Line
+	3925 1400 3925 2075
+Connection ~ 3925 2075
+Wire Wire Line
+	3150 1800 3650 1800
+Wire Wire Line
+	3150 2475 3650 2475
+Text Notes 3275 3700 0    50   ~ 0
+L1
+Text Notes 2825 3050 0    50   ~ 0
+Q
+Text Notes 2800 3725 0    50   ~ 0
+Cmd
+Wire Wire Line
+	2975 1025 2975 1400
+Wire Wire Line
+	2975 1400 2975 2075
+Connection ~ 2975 1400
+Connection ~ 2975 2075
+Wire Wire Line
+	2975 2075 2975 2725
+Connection ~ 2975 2725
+Connection ~ 3150 1800
+Connection ~ 3150 2475
+Connection ~ 3150 3125
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717A6
+P 1800 1450
+AR Path="/5E22FDCD/5F7717A6" Ref="MX?"  Part="1" 
+AR Path="/5F7717A6" Ref="MX2"  Part="1" 
+AR Path="/5EB180EA/5F7717A6" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717A6" Ref="MX?"  Part="1" 
+F 0 "MX2" H 1833 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 1833 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-Hotswap" H 1175 1425 60  0001 C CNN
+F 3 "" H 1175 1425 60  0001 C CNN
+	1    1800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717AC
+P 1650 1700
+AR Path="/5E22FDCD/5F7717AC" Ref="D?"  Part="1" 
+AR Path="/5F7717AC" Ref="D2"  Part="1" 
+AR Path="/5EB180EA/5F7717AC" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717AC" Ref="D?"  Part="1" 
+F 0 "D2" H 1675 1775 50  0000 R CNN
+F 1 "SOD-123" H 2075 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1650 1700 50  0001 C CNN
+F 3 "~" V 1650 1700 50  0001 C CNN
+	1    1650 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 1600 1750 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717B3
+P 1800 2125
+AR Path="/5E22FDCD/5F7717B3" Ref="MX?"  Part="1" 
+AR Path="/5F7717B3" Ref="MX17"  Part="1" 
+AR Path="/5EB180EA/5F7717B3" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717B3" Ref="MX?"  Part="1" 
+F 0 "MX17" H 1833 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 1833 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U-Hotswap" H 1175 2100 60  0001 C CNN
+F 3 "" H 1175 2100 60  0001 C CNN
+	1    1800 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717B9
+P 1650 2375
+AR Path="/5E22FDCD/5F7717B9" Ref="D?"  Part="1" 
+AR Path="/5F7717B9" Ref="D17"  Part="1" 
+AR Path="/5EB180EA/5F7717B9" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717B9" Ref="D?"  Part="1" 
+F 0 "D17" H 1675 2450 50  0000 R CNN
+F 1 "SOD-123" H 2075 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1650 2375 50  0001 C CNN
+F 3 "~" V 1650 2375 50  0001 C CNN
+	1    1650 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2275 1750 2275
+Wire Wire Line
+	1950 1025 1950 1400
+Connection ~ 1950 1400
+Wire Wire Line
+	1950 1400 1950 2075
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717C3
+P 2325 1450
+AR Path="/5E22FDCD/5F7717C3" Ref="MX?"  Part="1" 
+AR Path="/5F7717C3" Ref="MX3"  Part="1" 
+AR Path="/5EB180EA/5F7717C3" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717C3" Ref="MX?"  Part="1" 
+F 0 "MX3" H 2358 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 2358 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1700 1425 60  0001 C CNN
+F 3 "" H 1700 1425 60  0001 C CNN
+	1    2325 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717C9
+P 2200 1700
+AR Path="/5E22FDCD/5F7717C9" Ref="D?"  Part="1" 
+AR Path="/5F7717C9" Ref="D3"  Part="1" 
+AR Path="/5EB180EA/5F7717C9" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717C9" Ref="D?"  Part="1" 
+F 0 "D3" H 2225 1775 50  0000 R CNN
+F 1 "SOD-123" H 2625 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2200 1700 50  0001 C CNN
+F 3 "~" V 2200 1700 50  0001 C CNN
+	1    2200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1600 2275 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717D0
+P 2825 1450
+AR Path="/5E22FDCD/5F7717D0" Ref="MX?"  Part="1" 
+AR Path="/5F7717D0" Ref="MX4"  Part="1" 
+AR Path="/5EB180EA/5F7717D0" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717D0" Ref="MX?"  Part="1" 
+F 0 "MX4" H 2858 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 2858 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2200 1425 60  0001 C CNN
+F 3 "" H 2200 1425 60  0001 C CNN
+	1    2825 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717D6
+P 2700 1700
+AR Path="/5E22FDCD/5F7717D6" Ref="D?"  Part="1" 
+AR Path="/5F7717D6" Ref="D4"  Part="1" 
+AR Path="/5EB180EA/5F7717D6" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717D6" Ref="D?"  Part="1" 
+F 0 "D4" H 2725 1775 50  0000 R CNN
+F 1 "SOD-123" H 3125 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 1700 50  0001 C CNN
+F 3 "~" V 2700 1700 50  0001 C CNN
+	1    2700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1600 2775 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717DD
+P 2325 2125
+AR Path="/5E22FDCD/5F7717DD" Ref="MX?"  Part="1" 
+AR Path="/5F7717DD" Ref="MX18"  Part="1" 
+AR Path="/5EB180EA/5F7717DD" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717DD" Ref="MX?"  Part="1" 
+F 0 "MX18" H 2358 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 2358 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1700 2100 60  0001 C CNN
+F 3 "" H 1700 2100 60  0001 C CNN
+	1    2325 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717E3
+P 2200 2375
+AR Path="/5E22FDCD/5F7717E3" Ref="D?"  Part="1" 
+AR Path="/5F7717E3" Ref="D18"  Part="1" 
+AR Path="/5EB180EA/5F7717E3" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717E3" Ref="D?"  Part="1" 
+F 0 "D18" H 2225 2450 50  0000 R CNN
+F 1 "SOD-123" H 2625 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2200 2375 50  0001 C CNN
+F 3 "~" V 2200 2375 50  0001 C CNN
+	1    2200 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2275 2275 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717EA
+P 2825 2125
+AR Path="/5E22FDCD/5F7717EA" Ref="MX?"  Part="1" 
+AR Path="/5F7717EA" Ref="MX19"  Part="1" 
+AR Path="/5EB180EA/5F7717EA" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717EA" Ref="MX?"  Part="1" 
+F 0 "MX19" H 2858 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 2858 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2200 2100 60  0001 C CNN
+F 3 "" H 2200 2100 60  0001 C CNN
+	1    2825 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717F0
+P 2700 2375
+AR Path="/5E22FDCD/5F7717F0" Ref="D?"  Part="1" 
+AR Path="/5F7717F0" Ref="D19"  Part="1" 
+AR Path="/5EB180EA/5F7717F0" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717F0" Ref="D?"  Part="1" 
+F 0 "D19" H 2725 2450 50  0000 R CNN
+F 1 "SOD-123" H 3125 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 2375 50  0001 C CNN
+F 3 "~" V 2700 2375 50  0001 C CNN
+	1    2700 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2275 2775 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7717F7
+P 1800 2775
+AR Path="/5E22FDCD/5F7717F7" Ref="MX?"  Part="1" 
+AR Path="/5F7717F7" Ref="MX31"  Part="1" 
+AR Path="/5EB180EA/5F7717F7" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7717F7" Ref="MX?"  Part="1" 
+F 0 "MX31" H 1833 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 1833 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 1175 2750 60  0001 C CNN
+F 3 "" H 1175 2750 60  0001 C CNN
+	1    1800 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F7717FD
+P 1650 3025
+AR Path="/5E22FDCD/5F7717FD" Ref="D?"  Part="1" 
+AR Path="/5F7717FD" Ref="D31"  Part="1" 
+AR Path="/5EB180EA/5F7717FD" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7717FD" Ref="D?"  Part="1" 
+F 0 "D31" H 1675 3100 50  0000 R CNN
+F 1 "SOD-123" H 2075 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1650 3025 50  0001 C CNN
+F 3 "~" V 1650 3025 50  0001 C CNN
+	1    1650 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2925 1750 2925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771804
+P 2325 2775
+AR Path="/5E22FDCD/5F771804" Ref="MX?"  Part="1" 
+AR Path="/5F771804" Ref="MX32"  Part="1" 
+AR Path="/5EB180EA/5F771804" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771804" Ref="MX?"  Part="1" 
+F 0 "MX32" H 2358 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 2358 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1700 2750 60  0001 C CNN
+F 3 "" H 1700 2750 60  0001 C CNN
+	1    2325 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F77180A
+P 2200 3025
+AR Path="/5E22FDCD/5F77180A" Ref="D?"  Part="1" 
+AR Path="/5F77180A" Ref="D32"  Part="1" 
+AR Path="/5EB180EA/5F77180A" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F77180A" Ref="D?"  Part="1" 
+F 0 "D32" H 2225 3100 50  0000 R CNN
+F 1 "SOD-123" H 2625 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2200 3025 50  0001 C CNN
+F 3 "~" V 2200 3025 50  0001 C CNN
+	1    2200 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2925 2275 2925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771811
+P 2825 2775
+AR Path="/5E22FDCD/5F771811" Ref="MX?"  Part="1" 
+AR Path="/5F771811" Ref="MX33"  Part="1" 
+AR Path="/5EB180EA/5F771811" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771811" Ref="MX?"  Part="1" 
+F 0 "MX33" H 2858 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 2858 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2200 2750 60  0001 C CNN
+F 3 "" H 2200 2750 60  0001 C CNN
+	1    2825 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771817
+P 2700 3025
+AR Path="/5E22FDCD/5F771817" Ref="D?"  Part="1" 
+AR Path="/5F771817" Ref="D33"  Part="1" 
+AR Path="/5EB180EA/5F771817" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771817" Ref="D?"  Part="1" 
+F 0 "D33" H 2725 3100 50  0000 R CNN
+F 1 "SOD-123" H 3125 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 3025 50  0001 C CNN
+F 3 "~" V 2700 3025 50  0001 C CNN
+	1    2700 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2925 2775 2925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F77181E
+P 1275 3425
+AR Path="/5E22FDCD/5F77181E" Ref="MX?"  Part="1" 
+AR Path="/5F77181E" Ref="MX44"  Part="1" 
+AR Path="/5EB180EA/5F77181E" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F77181E" Ref="MX?"  Part="1" 
+F 0 "MX44" H 1308 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 1308 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 650 3400 60  0001 C CNN
+F 3 "" H 650 3400 60  0001 C CNN
+	1    1275 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771824
+P 1150 3675
+AR Path="/5E22FDCD/5F771824" Ref="D?"  Part="1" 
+AR Path="/5F771824" Ref="D44"  Part="1" 
+AR Path="/5EB180EA/5F771824" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771824" Ref="D?"  Part="1" 
+F 0 "D44" H 1175 3750 50  0000 R CNN
+F 1 "SOD-123" H 1575 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1150 3675 50  0001 C CNN
+F 3 "~" V 1150 3675 50  0001 C CNN
+	1    1150 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 3575 1225 3575
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F77182B
+P 1800 3425
+AR Path="/5E22FDCD/5F77182B" Ref="MX?"  Part="1" 
+AR Path="/5F77182B" Ref="MX45"  Part="1" 
+AR Path="/5EB180EA/5F77182B" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F77182B" Ref="MX?"  Part="1" 
+F 0 "MX45" H 1833 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 1833 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1175 3400 60  0001 C CNN
+F 3 "" H 1175 3400 60  0001 C CNN
+	1    1800 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771831
+P 1675 3675
+AR Path="/5E22FDCD/5F771831" Ref="D?"  Part="1" 
+AR Path="/5F771831" Ref="D45"  Part="1" 
+AR Path="/5EB180EA/5F771831" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771831" Ref="D?"  Part="1" 
+F 0 "D45" H 1700 3750 50  0000 R CNN
+F 1 "SOD-123" H 2100 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1675 3675 50  0001 C CNN
+F 3 "~" V 1675 3675 50  0001 C CNN
+	1    1675 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1675 3575 1750 3575
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771838
+P 2825 3425
+AR Path="/5E22FDCD/5F771838" Ref="MX?"  Part="1" 
+AR Path="/5F771838" Ref="MX47"  Part="1" 
+AR Path="/5EB180EA/5F771838" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771838" Ref="MX?"  Part="1" 
+F 0 "MX47" H 2858 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 2858 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap" H 2200 3400 60  0001 C CNN
+F 3 "" H 2200 3400 60  0001 C CNN
+	1    2825 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F77183E
+P 2700 3675
+AR Path="/5E22FDCD/5F77183E" Ref="D?"  Part="1" 
+AR Path="/5F77183E" Ref="D47"  Part="1" 
+AR Path="/5EB180EA/5F77183E" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F77183E" Ref="D?"  Part="1" 
+F 0 "D47" H 2725 3750 50  0000 R CNN
+F 1 "SOD-123" H 3125 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 3675 50  0001 C CNN
+F 3 "~" V 2700 3675 50  0001 C CNN
+	1    2700 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3575 2775 3575
+Text Notes 1775 3700 0    50   ~ 0
+Del
+Text Notes 1225 3700 0    50   ~ 0
+Insert
+Wire Wire Line
+	1950 2075 1950 2725
+Connection ~ 1950 2075
+Connection ~ 1950 2725
+Wire Wire Line
+	1950 2725 1950 3375
+Wire Wire Line
+	2475 1025 2475 1400
+Connection ~ 2475 1400
+Wire Wire Line
+	2475 1400 2475 2075
+Connection ~ 2475 2075
+Wire Wire Line
+	2475 2075 2475 2725
+Wire Wire Line
+	2975 2725 2975 3375
+Connection ~ 2200 1800
+Wire Wire Line
+	2200 1800 2700 1800
+Connection ~ 2700 1800
+Wire Wire Line
+	2700 1800 3150 1800
+Connection ~ 2200 2475
+Wire Wire Line
+	2200 2475 2700 2475
+Connection ~ 2700 2475
+Wire Wire Line
+	2700 2475 3150 2475
+Connection ~ 2200 3125
+Wire Wire Line
+	2200 3125 2700 3125
+Connection ~ 2700 3125
+Wire Wire Line
+	2700 3125 3150 3125
+Text Notes 2325 3050 0    50   ~ 0
+;
+Text Notes 1800 3075 0    50   ~ 0
+Shift
+Wire Wire Line
+	3650 1800 4150 1800
+Connection ~ 3650 1800
+Wire Wire Line
+	3650 2475 4150 2475
+Connection ~ 3650 2475
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771875
+P 3775 2775
+AR Path="/5E22FDCD/5F771875" Ref="MX?"  Part="1" 
+AR Path="/5F771875" Ref="MX35"  Part="1" 
+AR Path="/5EB180EA/5F771875" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771875" Ref="MX?"  Part="1" 
+F 0 "MX35" H 3808 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 3808 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3150 2750 60  0001 C CNN
+F 3 "" H 3150 2750 60  0001 C CNN
+	1    3775 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5F771881
+P 3700 3025
+AR Path="/5E22FDCD/5F771881" Ref="D?"  Part="1" 
+AR Path="/5F771881" Ref="D35"  Part="1" 
+AR Path="/5EB180EA/5F771881" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771881" Ref="D?"  Part="1" 
+F 0 "D35" H 3725 3100 50  0000 R CNN
+F 1 "SOD-123" H 4125 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3700 3025 50  0001 C CNN
+F 3 "~" V 3700 3025 50  0001 C CNN
+	1    3700 3025
+	0    -1   -1   0   
+$EndComp
+Text GLabel 900  2475 0    50   Input ~ 0
+ROW1
+Text GLabel 900  3125 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	1650 3125 2200 3125
+Wire Wire Line
+	1650 2475 2200 2475
+Wire Wire Line
+	1650 1800 2200 1800
+Wire Wire Line
+	900  2475 1150 2475
+Wire Wire Line
+	1425 2075 1425 2725
+Connection ~ 1425 2075
+Wire Wire Line
+	900  3125 1150 3125
+Wire Wire Line
+	1425 2725 1425 3375
+Connection ~ 1425 2725
+Wire Wire Line
+	1425 1400 1425 2075
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F7718F2
+P 1275 2775
+AR Path="/5E22FDCD/5F7718F2" Ref="MX?"  Part="1" 
+AR Path="/5F7718F2" Ref="MX30"  Part="1" 
+AR Path="/5EB180EA/5F7718F2" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F7718F2" Ref="MX?"  Part="1" 
+F 0 "MX30" H 1308 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 1308 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 650 2750 60  0001 C CNN
+F 3 "" H 650 2750 60  0001 C CNN
+	1    1275 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2925 1225 2925
+$Comp
+L Device:D_Small D?
+U 1 1 5F7718F9
+P 1150 3025
+AR Path="/5E22FDCD/5F7718F9" Ref="D?"  Part="1" 
+AR Path="/5F7718F9" Ref="D30"  Part="1" 
+AR Path="/5EB180EA/5F7718F9" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F7718F9" Ref="D?"  Part="1" 
+F 0 "D30" H 1175 3100 50  0000 R CNN
+F 1 "SOD-123" H 1575 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1150 3025 50  0001 C CNN
+F 3 "~" V 1150 3025 50  0001 C CNN
+	1    1150 3025
+	0    -1   -1   0   
+$EndComp
+Text Notes 1275 2400 0    50   ~ 0
+PGUP
+Text Notes 1200 3075 0    50   ~ 0
+PGDN
+Text Notes 1225 1725 0    50   ~ 0
+ESC
+Wire Wire Line
+	1125 1800 900  1800
+Connection ~ 1425 1400
+Wire Wire Line
+	1425 1025 1425 1400
+Wire Wire Line
+	1150 2275 1225 2275
+$Comp
+L Device:D_Small D?
+U 1 1 5F771906
+P 1150 2375
+AR Path="/5E22FDCD/5F771906" Ref="D?"  Part="1" 
+AR Path="/5F771906" Ref="D16"  Part="1" 
+AR Path="/5EB180EA/5F771906" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771906" Ref="D?"  Part="1" 
+F 0 "D16" H 1175 2450 50  0000 R CNN
+F 1 "SOD-123" H 1575 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1150 2375 50  0001 C CNN
+F 3 "~" V 1150 2375 50  0001 C CNN
+	1    1150 2375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F77190C
+P 1275 2125
+AR Path="/5E22FDCD/5F77190C" Ref="MX?"  Part="1" 
+AR Path="/5F77190C" Ref="MX16"  Part="1" 
+AR Path="/5EB180EA/5F77190C" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F77190C" Ref="MX?"  Part="1" 
+F 0 "MX16" H 1308 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 1308 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 650 2100 60  0001 C CNN
+F 3 "" H 650 2100 60  0001 C CNN
+	1    1275 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 1600 1225 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5F771913
+P 1275 1450
+AR Path="/5E22FDCD/5F771913" Ref="MX?"  Part="1" 
+AR Path="/5F771913" Ref="MX1"  Part="1" 
+AR Path="/5EB180EA/5F771913" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5F771913" Ref="MX?"  Part="1" 
+F 0 "MX1" H 1308 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 1308 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 650 1425 60  0001 C CNN
+F 3 "" H 650 1425 60  0001 C CNN
+	1    1275 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 1800 1650 1800
+Connection ~ 1125 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1150 2475 1650 2475
+Connection ~ 1150 2475
+Connection ~ 1650 2475
+Wire Wire Line
+	1150 3125 1650 3125
+Connection ~ 1150 3125
+Connection ~ 1650 3125
+Wire Wire Line
+	900  3775 1150 3775
+Connection ~ 1150 3775
+Wire Wire Line
+	1150 3775 1675 3775
+Connection ~ 2700 3775
+Text GLabel 900  3775 0    50   Input ~ 0
+ROW3
+Text GLabel 900  1800 0    50   Input ~ 0
+ROW0
+Text GLabel 1425 1025 0    50   Input ~ 0
+COL0
+Text GLabel 1950 1025 0    50   Input ~ 0
+COL1
+Text GLabel 2475 1025 0    50   Input ~ 0
+COL2
+Text GLabel 2975 1025 0    50   Input ~ 0
+COL3
+Text GLabel 3425 1025 0    50   Input ~ 0
+COL4
+Text GLabel 3925 1025 0    50   Input ~ 0
+COL5
+Text GLabel 4425 1025 0    50   Input ~ 0
+COL6
+Text GLabel 9400 1350 0    50   Input ~ 0
+COL7
+Text GLabel 9925 1350 0    50   Input ~ 0
+COL8
+Text GLabel 10450 1350 0    50   Input ~ 0
+COL9
+Text GLabel 10950 1350 0    50   Input ~ 0
+COL10
+Text GLabel 11400 1350 0    50   Input ~ 0
+COL11
+Text GLabel 11900 1350 0    50   Input ~ 0
+COL12
+Wire Wire Line
+	14250 2000 14800 2000
+Wire Wire Line
+	14325 2100 15600 2100
+$Comp
+L Diode:1.5KExxCA ESD?
+U 1 1 5F77193D
+P 15600 2425
+AR Path="/5F706D19/5F77193D" Ref="ESD?"  Part="1" 
+AR Path="/5F77193D" Ref="ESD2"  Part="1" 
+F 0 "ESD2" V 15554 2504 50  0000 L CNN
+F 1 "ESDAXLC6-1BT2" V 15625 2500 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 15600 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 15600 2425 50  0001 C CNN
+	1    15600 2425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14800 2000 14800 2150
+Connection ~ 14800 2000
+Wire Wire Line
+	14800 2000 15700 2000
+Wire Wire Line
+	14800 2450 14800 2600
+Wire Wire Line
+	14800 2600 15150 2600
+Wire Wire Line
+	15150 2600 15150 2650
+Wire Wire Line
+	15600 2600 15150 2600
+Connection ~ 15150 2600
+Wire Wire Line
+	15600 2275 15600 2100
+Connection ~ 15600 2100
+Wire Wire Line
+	15600 2100 15700 2100
+Wire Wire Line
+	15600 2600 15600 2575
+$Comp
+L Device:D_Small D?
+U 1 1 5F771956
+P 1125 1700
+AR Path="/5E22FDCD/5F771956" Ref="D?"  Part="1" 
+AR Path="/5F771956" Ref="D1"  Part="1" 
+AR Path="/5EB180EA/5F771956" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5F771956" Ref="D?"  Part="1" 
+F 0 "D1" H 1150 1775 50  0000 R CNN
+F 1 "SOD-123" H 1550 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1125 1700 50  0001 C CNN
+F 3 "~" V 1125 1700 50  0001 C CNN
+	1    1125 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1675 3775 2200 3775
+Connection ~ 1675 3775
+Wire Wire Line
+	3725 2925 3700 2925
+Wire Wire Line
+	14125 1700 14325 1700
+$Comp
+L Device:C_Small C?
+U 1 1 5F771974
+P 14650 1625
+AR Path="/5F706D19/5F771974" Ref="C?"  Part="1" 
+AR Path="/5F771974" Ref="C3"  Part="1" 
+F 0 "C3" H 14742 1671 50  0000 L CNN
+F 1 "1uF" H 14700 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14650 1625 50  0001 C CNN
+F 3 "~" H 14650 1625 50  0001 C CNN
+	1    14650 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 14650 1450
+Wire Wire Line
+	14325 1700 14325 1450
+Wire Wire Line
+	14525 1450 14650 1450
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 5F77197D
+P 14425 1450
+AR Path="/5F706D19/5F77197D" Ref="F?"  Part="1" 
+AR Path="/5F77197D" Ref="F1"  Part="1" 
+F 0 "F1" V 14500 1450 50  0000 C CNN
+F 1 "nSMD025" V 14325 1450 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 14475 1250 50  0001 L CNN
+F 3 "~" H 14425 1450 50  0001 C CNN
+	1    14425 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15525 1450 15525 1525
+$Comp
+L Device:C_Small C?
+U 1 1 5F771984
+P 15525 1625
+AR Path="/5F706D19/5F771984" Ref="C?"  Part="1" 
+AR Path="/5F771984" Ref="C4"  Part="1" 
+F 0 "C4" H 15617 1671 50  0000 L CNN
+F 1 "1uF" H 15617 1580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15525 1625 50  0001 C CNN
+F 3 "~" H 15525 1625 50  0001 C CNN
+	1    15525 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 15525 1450
+Wire Wire Line
+	15525 1450 15425 1450
+Wire Wire Line
+	15525 1450 15725 1450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F77198D
+P 15725 1450
+AR Path="/5F706D19/5F77198D" Ref="#PWR?"  Part="1" 
+AR Path="/5F77198D" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 15725 1300 50  0001 C CNN
+F 1 "+3.3V" H 15740 1623 50  0000 C CNN
+F 2 "" H 15725 1450 50  0001 C CNN
+F 3 "" H 15725 1450 50  0001 C CNN
+	1    15725 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 1450 14825 1450
+Wire Wire Line
+	14650 1775 14650 1725
+Wire Wire Line
+	15125 1750 15125 1775
+Wire Wire Line
+	15125 1775 14650 1775
+Connection ~ 15125 1775
+Wire Wire Line
+	15525 1725 15525 1775
+Wire Wire Line
+	15525 1775 15125 1775
+Wire Wire Line
+	14650 1525 14650 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5F77199B
+P 15125 1775
+AR Path="/5F706D19/5F77199B" Ref="#PWR?"  Part="1" 
+AR Path="/5F77199B" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 15125 1525 50  0001 C CNN
+F 1 "GND" H 15130 1602 50  0000 C CNN
+F 2 "" H 15125 1775 50  0001 C CNN
+F 3 "" H 15125 1775 50  0001 C CNN
+	1    15125 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5F7719A1
+P 15125 1450
+AR Path="/5F706D19/5F7719A1" Ref="U?"  Part="1" 
+AR Path="/5F7719A1" Ref="U1"  Part="1" 
+F 0 "U1" H 15125 1650 50  0000 C CNN
+F 1 "XC6206P332MR" H 15225 1575 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23" H 15125 1650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 15225 1200 50  0001 C CNN
+	1    15125 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1.5KExxCA ESD?
+U 1 1 5F7719A7
+P 14800 2300
+AR Path="/5F706D19/5F7719A7" Ref="ESD?"  Part="1" 
+AR Path="/5F7719A7" Ref="ESD1"  Part="1" 
+F 0 "ESD1" V 14700 2375 50  0000 L CNN
+F 1 "ESDAXLC6-1BT2" V 14775 2375 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 14800 2100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 14800 2300 50  0001 C CNN
+	1    14800 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F7719AE
+P 7325 8725
+AR Path="/5F706D19/5F7719AE" Ref="#PWR?"  Part="1" 
+AR Path="/5F7719AE" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 7325 8575 50  0001 C CNN
+F 1 "+3.3V" H 7340 8898 50  0000 C CNN
+F 2 "" H 7325 8725 50  0001 C CNN
+F 3 "" H 7325 8725 50  0001 C CNN
+	1    7325 8725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8725 7325 8725
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F7719B5
+P 6900 8825
+AR Path="/5F706D19/5F7719B5" Ref="J?"  Part="1" 
+AR Path="/5F7719B5" Ref="J2"  Part="1" 
+F 0 "J2" H 6818 8500 50  0000 C CNN
+F 1 "Conn_01x02" H 6818 8591 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 8825 50  0001 C CNN
+F 3 "~" H 6900 8825 50  0001 C CNN
+	1    6900 8825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F7719BB
+P 6900 9200
+AR Path="/5F706D19/5F7719BB" Ref="J?"  Part="1" 
+AR Path="/5F7719BB" Ref="J3"  Part="1" 
+F 0 "J3" H 6818 8875 50  0000 C CNN
+F 1 "Conn_01x03" H 6818 8966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 9200 50  0001 C CNN
+F 3 "~" H 6900 9200 50  0001 C CNN
+	1    6900 9200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F7719C8
+P 10325 6100
+AR Path="/5F706D19/5F7719C8" Ref="#PWR?"  Part="1" 
+AR Path="/5F7719C8" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 10325 5950 50  0001 C CNN
+F 1 "+3.3V" H 10340 6273 50  0000 C CNN
+F 2 "" H 10325 6100 50  0001 C CNN
+F 3 "" H 10325 6100 50  0001 C CNN
+	1    10325 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7719CE
+P 10400 6300
+AR Path="/5F706D19/5F7719CE" Ref="#PWR?"  Part="1" 
+AR Path="/5F7719CE" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 10400 6050 50  0001 C CNN
+F 1 "GND" H 10275 6225 50  0000 C CNN
+F 2 "" H 10400 6300 50  0001 C CNN
+F 3 "" H 10400 6300 50  0001 C CNN
+	1    10400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F7719F3
+P 10400 6200
+AR Path="/5F706D19/5F7719F3" Ref="C?"  Part="1" 
+AR Path="/5F7719F3" Ref="C5"  Part="1" 
+F 0 "C5" H 10500 6250 50  0000 L CNN
+F 1 "100nF" H 10125 6150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10400 6200 50  0001 C CNN
+F 3 "~" H 10400 6200 50  0001 C CNN
+	1    10400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_RESET?
+U 1 1 5F771A12
+P 9825 6425
+AR Path="/5F706D19/5F771A12" Ref="SW_RESET?"  Part="1" 
+AR Path="/5F771A12" Ref="SW_RESET1"  Part="1" 
+F 0 "SW_RESET1" H 9425 6600 50  0000 C CNN
+F 1 "TS-1187A-B-A-B" H 9400 6525 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQGADE010" H 9825 6625 50  0001 C CNN
+F 3 "~" H 9825 6625 50  0001 C CNN
+	1    9825 6425
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 6550 1    50   Input ~ 0
+NRST
+Wire Wire Line
+	10025 6550 9950 6550
+Connection ~ 10025 6550
+Wire Wire Line
+	10025 6425 10025 6550
+Wire Wire Line
+	9625 6550 9750 6550
+Connection ~ 9625 6550
+Wire Wire Line
+	9625 6550 9625 6425
+Wire Wire Line
+	9325 6550 9625 6550
+Wire Wire Line
+	10125 6550 10025 6550
+$Comp
+L Device:C_Small C?
+U 1 1 5F771A25
+P 9850 6550
+AR Path="/5F706D19/5F771A25" Ref="C?"  Part="1" 
+AR Path="/5F771A25" Ref="C7"  Part="1" 
+F 0 "C7" V 9775 6625 50  0000 L CNN
+F 1 "100nF" V 9775 6275 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9850 6550 50  0001 C CNN
+F 3 "~" H 9850 6550 50  0001 C CNN
+	1    9850 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F771A2B
+P 9325 6550
+AR Path="/5F706D19/5F771A2B" Ref="#PWR?"  Part="1" 
+AR Path="/5F771A2B" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 9325 6300 50  0001 C CNN
+F 1 "GND" H 9225 6550 50  0000 C CNN
+F 2 "" H 9325 6550 50  0001 C CNN
+F 3 "" H 9325 6550 50  0001 C CNN
+	1    9325 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 11325 7750 2    50   Input ~ 0
+D+
+Text GLabel 11325 7650 2    50   Input ~ 0
+D-
+$Comp
+L Switch:SW_Push SW_BOOT?
+U 1 1 5F771A3C
+P 9500 6750
+AR Path="/5F706D19/5F771A3C" Ref="SW_BOOT?"  Part="1" 
+AR Path="/5F771A3C" Ref="SW_BOOT1"  Part="1" 
+F 0 "SW_BOOT1" H 9200 6600 50  0000 C CNN
+F 1 "TS-1187A-B-A-B" H 9100 6675 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQGADE010" H 9500 6950 50  0001 C CNN
+F 3 "~" H 9500 6950 50  0001 C CNN
+	1    9500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F771A42
+P 8975 6750
+AR Path="/5F706D19/5F771A42" Ref="#PWR?"  Part="1" 
+AR Path="/5F771A42" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 8975 6600 50  0001 C CNN
+F 1 "+3.3V" H 8850 6900 50  0000 C CNN
+F 2 "" H 8975 6750 50  0001 C CNN
+F 3 "" H 8975 6750 50  0001 C CNN
+	1    8975 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F771A48
+P 9700 6875
+AR Path="/5F706D19/5F771A48" Ref="R?"  Part="1" 
+AR Path="/5F771A48" Ref="R1"  Part="1" 
+F 0 "R1" V 9550 6875 50  0000 C CNN
+F 1 "10k" V 9625 6875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 6875 50  0001 C CNN
+F 3 "~" H 9700 6875 50  0001 C CNN
+	1    9700 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F771A4E
+P 9700 6975
+AR Path="/5F706D19/5F771A4E" Ref="#PWR?"  Part="1" 
+AR Path="/5F771A4E" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 9700 6725 50  0001 C CNN
+F 1 "GND" H 9705 6802 50  0000 C CNN
+F 2 "" H 9700 6975 50  0001 C CNN
+F 3 "" H 9700 6975 50  0001 C CNN
+	1    9700 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 6750 9700 6750
+Wire Wire Line
+	9700 6775 9700 6750
+Connection ~ 9700 6750
+Wire Wire Line
+	10625 8150 10625 8250
+Wire Wire Line
+	10725 8250 10725 8150
+$Comp
+L MCU_ST_STM32L0:STM32L072KBUx U2
+U 1 1 5F7AC2C5
+P 10725 7250
+F 0 "U2" H 10700 7325 50  0000 C CNN
+F 1 "STM32L072KBUx" V 10825 7300 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 10225 6450 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf" H 10725 7250 50  0001 C CNN
+	1    10725 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10825 8150 10825 8250
+Wire Wire Line
+	10825 8250 10925 8250
+Wire Wire Line
+	10925 8250 10925 8150
+Wire Wire Line
+	10625 8250 10725 8250
+Connection ~ 10825 8250
+Connection ~ 10725 8250
+Wire Wire Line
+	10725 8250 10775 8250
+Connection ~ 10775 8250
+Wire Wire Line
+	10775 8250 10825 8250
+Wire Wire Line
+	10625 6350 10625 6100
+Wire Wire Line
+	10625 6100 10400 6100
+Connection ~ 10400 6100
+Wire Wire Line
+	10400 6100 10325 6100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F85BF2D
+P 10250 5700
+AR Path="/5F706D19/5F85BF2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F85BF2D" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 10250 5550 50  0001 C CNN
+F 1 "+3.3V" H 10265 5873 50  0000 C CNN
+F 2 "" H 10250 5700 50  0001 C CNN
+F 3 "" H 10250 5700 50  0001 C CNN
+	1    10250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F85BF37
+P 10325 5900
+AR Path="/5F706D19/5F85BF37" Ref="#PWR?"  Part="1" 
+AR Path="/5F85BF37" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 10325 5650 50  0001 C CNN
+F 1 "GND" H 10225 5900 50  0000 C CNN
+F 2 "" H 10325 5900 50  0001 C CNN
+F 3 "" H 10325 5900 50  0001 C CNN
+	1    10325 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F85BF41
+P 10325 5800
+AR Path="/5F706D19/5F85BF41" Ref="C?"  Part="1" 
+AR Path="/5F85BF41" Ref="C1"  Part="1" 
+F 0 "C1" H 10417 5846 50  0000 L CNN
+F 1 "100nF" H 10417 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10325 5800 50  0001 C CNN
+F 3 "~" H 10325 5800 50  0001 C CNN
+	1    10325 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10325 5700 10250 5700
+Wire Wire Line
+	10725 6350 10725 5700
+Wire Wire Line
+	10725 5700 10325 5700
+Connection ~ 10325 5700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F87A411
+P 11225 6100
+AR Path="/5F706D19/5F87A411" Ref="#PWR?"  Part="1" 
+AR Path="/5F87A411" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 11225 5950 50  0001 C CNN
+F 1 "+3.3V" H 11240 6273 50  0000 C CNN
+F 2 "" H 11225 6100 50  0001 C CNN
+F 3 "" H 11225 6100 50  0001 C CNN
+	1    11225 6100
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F87A41B
+P 11150 6300
+AR Path="/5F706D19/5F87A41B" Ref="#PWR?"  Part="1" 
+AR Path="/5F87A41B" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 11150 6050 50  0001 C CNN
+F 1 "GND" H 11025 6225 50  0000 C CNN
+F 2 "" H 11150 6300 50  0001 C CNN
+F 3 "" H 11150 6300 50  0001 C CNN
+	1    11150 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F87A425
+P 11150 6200
+AR Path="/5F706D19/5F87A425" Ref="C?"  Part="1" 
+AR Path="/5F87A425" Ref="C6"  Part="1" 
+F 0 "C6" H 11242 6246 50  0000 L CNN
+F 1 "100nF" H 10825 6175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11150 6200 50  0001 C CNN
+F 3 "~" H 11150 6200 50  0001 C CNN
+	1    11150 6200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 6100 11150 6100
+Connection ~ 11150 6100
+Wire Wire Line
+	11150 6100 11225 6100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F87A432
+P 11300 5700
+AR Path="/5F706D19/5F87A432" Ref="#PWR?"  Part="1" 
+AR Path="/5F87A432" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 11300 5550 50  0001 C CNN
+F 1 "+3.3V" H 11315 5873 50  0000 C CNN
+F 2 "" H 11300 5700 50  0001 C CNN
+F 3 "" H 11300 5700 50  0001 C CNN
+	1    11300 5700
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F87A43C
+P 11225 5900
+AR Path="/5F706D19/5F87A43C" Ref="#PWR?"  Part="1" 
+AR Path="/5F87A43C" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 11225 5650 50  0001 C CNN
+F 1 "GND" H 11125 5900 50  0000 C CNN
+F 2 "" H 11225 5900 50  0001 C CNN
+F 3 "" H 11225 5900 50  0001 C CNN
+	1    11225 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F87A446
+P 11225 5800
+AR Path="/5F706D19/5F87A446" Ref="C?"  Part="1" 
+AR Path="/5F87A446" Ref="C2"  Part="1" 
+F 0 "C2" H 11317 5846 50  0000 L CNN
+F 1 "100nF" H 11317 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11225 5800 50  0001 C CNN
+F 3 "~" H 11225 5800 50  0001 C CNN
+	1    11225 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11225 5700 11300 5700
+Wire Wire Line
+	10825 5700 11225 5700
+Connection ~ 11225 5700
+Wire Wire Line
+	10825 6350 10825 5700
+Wire Wire Line
+	10925 6350 10925 6100
+Wire Wire Line
+	9300 6750 8975 6750
+Wire Wire Line
+	11325 7850 11750 7850
+Wire Wire Line
+	11325 7950 11750 7950
+Text GLabel 900  4425 0    50   Input ~ 0
+ROW4
+Text Notes 1775 2425 0    50   ~ 0
+Ctrl
+Text Notes 1775 850  0    200  ~ 0
+Left Hand
+Text Notes 1775 1725 0    50   ~ 0
+Tab
+Text Notes 2325 1725 0    50   ~ 0
+‘
+Text Notes 2275 2425 0    50   ~ 0
+A
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FCA439B
+P 4275 1450
+AR Path="/5E22FDCD/5FCA439B" Ref="MX?"  Part="1" 
+AR Path="/5FCA439B" Ref="MX7"  Part="1" 
+AR Path="/5EB180EA/5FCA439B" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FCA439B" Ref="MX?"  Part="1" 
+F 0 "MX7" H 4308 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 4308 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3650 1425 60  0001 C CNN
+F 3 "" H 3650 1425 60  0001 C CNN
+	1    4275 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FCA43A5
+P 4150 1700
+AR Path="/5E22FDCD/5FCA43A5" Ref="D?"  Part="1" 
+AR Path="/5FCA43A5" Ref="D7"  Part="1" 
+AR Path="/5EB180EA/5FCA43A5" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FCA43A5" Ref="D?"  Part="1" 
+F 0 "D7" H 4175 1775 50  0000 R CNN
+F 1 "SOD-123" H 4575 1775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4150 1700 50  0001 C CNN
+F 3 "~" V 4150 1700 50  0001 C CNN
+	1    4150 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 1600 4225 1600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FCA43B0
+P 4275 2125
+AR Path="/5E22FDCD/5FCA43B0" Ref="MX?"  Part="1" 
+AR Path="/5FCA43B0" Ref="MX22"  Part="1" 
+AR Path="/5EB180EA/5FCA43B0" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FCA43B0" Ref="MX?"  Part="1" 
+F 0 "MX22" H 4308 2348 60  0000 C CNN
+F 1 "MX-NoLED" H 4308 2274 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3650 2100 60  0001 C CNN
+F 3 "" H 3650 2100 60  0001 C CNN
+	1    4275 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FCA43BA
+P 4150 2375
+AR Path="/5E22FDCD/5FCA43BA" Ref="D?"  Part="1" 
+AR Path="/5FCA43BA" Ref="D22"  Part="1" 
+AR Path="/5EB180EA/5FCA43BA" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FCA43BA" Ref="D?"  Part="1" 
+F 0 "D22" H 4175 2450 50  0000 R CNN
+F 1 "SOD-123" H 4575 2450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4150 2375 50  0001 C CNN
+F 3 "~" V 4150 2375 50  0001 C CNN
+	1    4150 2375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2275 4225 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FCA43C5
+P 4275 2775
+AR Path="/5E22FDCD/5FCA43C5" Ref="MX?"  Part="1" 
+AR Path="/5FCA43C5" Ref="MX36"  Part="1" 
+AR Path="/5EB180EA/5FCA43C5" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FCA43C5" Ref="MX?"  Part="1" 
+F 0 "MX36" H 4308 2998 60  0000 C CNN
+F 1 "MX-NoLED" H 4308 2924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3650 2750 60  0001 C CNN
+F 3 "" H 3650 2750 60  0001 C CNN
+	1    4275 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FCA43CF
+P 4150 3025
+AR Path="/5E22FDCD/5FCA43CF" Ref="D?"  Part="1" 
+AR Path="/5FCA43CF" Ref="D36"  Part="1" 
+AR Path="/5EB180EA/5FCA43CF" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FCA43CF" Ref="D?"  Part="1" 
+F 0 "D36" H 4175 3100 50  0000 R CNN
+F 1 "SOD-123" H 4575 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4150 3025 50  0001 C CNN
+F 3 "~" V 4150 3025 50  0001 C CNN
+	1    4150 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2925 4225 2925
+Text Notes 4275 1725 0    50   ~ 0
+Y
+Wire Wire Line
+	4425 1025 4425 1400
+Connection ~ 4425 1400
+Wire Wire Line
+	4425 1400 4425 2075
+Connection ~ 4425 2075
+Wire Wire Line
+	4425 2075 4425 2725
+Text Notes 4250 3050 0    50   ~ 0
+X
+Text Notes 4250 2425 0    50   ~ 0
+I
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FCA43E4
+P 4275 3425
+AR Path="/5E22FDCD/5FCA43E4" Ref="MX?"  Part="1" 
+AR Path="/5FCA43E4" Ref="MX49"  Part="1" 
+AR Path="/5EB180EA/5FCA43E4" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FCA43E4" Ref="MX?"  Part="1" 
+F 0 "MX49" H 4308 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 4308 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3650 3400 60  0001 C CNN
+F 3 "" H 3650 3400 60  0001 C CNN
+	1    4275 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FCA43EE
+P 4200 3675
+AR Path="/5E22FDCD/5FCA43EE" Ref="D?"  Part="1" 
+AR Path="/5FCA43EE" Ref="D49"  Part="1" 
+AR Path="/5EB180EA/5FCA43EE" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FCA43EE" Ref="D?"  Part="1" 
+F 0 "D49" H 4225 3750 50  0000 R CNN
+F 1 "SOD-123" H 4625 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4200 3675 50  0001 C CNN
+F 3 "~" V 4200 3675 50  0001 C CNN
+	1    4200 3675
+	0    -1   -1   0   
+$EndComp
+Text Notes 4275 3700 0    50   ~ 0
+s-BS
+Connection ~ 4425 2725
+Wire Wire Line
+	4225 3575 4200 3575
+Wire Wire Line
+	4425 2725 4425 3375
+Connection ~ 4150 1800
+Connection ~ 4150 2475
+Wire Wire Line
+	2700 3775 3150 3775
+Text Notes 2300 3725 0    50   ~ 0
+Opt
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD168C2
+P 2325 3425
+AR Path="/5E22FDCD/5FD168C2" Ref="MX?"  Part="1" 
+AR Path="/5FD168C2" Ref="MX46"  Part="1" 
+AR Path="/5EB180EA/5FD168C2" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD168C2" Ref="MX?"  Part="1" 
+F 0 "MX46" H 2358 3648 60  0000 C CNN
+F 1 "MX-NoLED" H 2358 3574 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap" H 1700 3400 60  0001 C CNN
+F 3 "" H 1700 3400 60  0001 C CNN
+	1    2325 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD168CC
+P 2200 3675
+AR Path="/5E22FDCD/5FD168CC" Ref="D?"  Part="1" 
+AR Path="/5FD168CC" Ref="D46"  Part="1" 
+AR Path="/5EB180EA/5FD168CC" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD168CC" Ref="D?"  Part="1" 
+F 0 "D46" H 2225 3750 50  0000 R CNN
+F 1 "SOD-123" H 2625 3750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2200 3675 50  0001 C CNN
+F 3 "~" V 2200 3675 50  0001 C CNN
+	1    2200 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 3575 2275 3575
+Connection ~ 2200 3775
+Wire Wire Line
+	2200 3775 2700 3775
+Wire Wire Line
+	2475 3375 2475 2725
+Connection ~ 2475 2725
+Wire Wire Line
+	3150 3125 3700 3125
+Connection ~ 3150 3775
+Wire Wire Line
+	3425 3375 3425 2725
+Connection ~ 3425 2725
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BA3A
+P 3275 4075
+AR Path="/5E22FDCD/5FD8BA3A" Ref="MX?"  Part="1" 
+AR Path="/5FD8BA3A" Ref="MX60"  Part="1" 
+AR Path="/5EB180EA/5FD8BA3A" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BA3A" Ref="MX?"  Part="1" 
+F 0 "MX60" H 3308 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 3308 4224 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 2650 4050 60  0001 C CNN
+F 3 "" H 2650 4050 60  0001 C CNN
+	1    3275 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BA44
+P 3150 4325
+AR Path="/5E22FDCD/5FD8BA44" Ref="D?"  Part="1" 
+AR Path="/5FD8BA44" Ref="D60"  Part="1" 
+AR Path="/5EB180EA/5FD8BA44" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BA44" Ref="D?"  Part="1" 
+F 0 "D60" H 3175 4400 50  0000 R CNN
+F 1 "SOD-123" H 3575 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3150 4325 50  0001 C CNN
+F 3 "~" V 3150 4325 50  0001 C CNN
+	1    3150 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 4225 3225 4225
+Text Notes 2800 4375 0    50   ~ 0
+C+a
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BA50
+P 1275 4075
+AR Path="/5E22FDCD/5FD8BA50" Ref="MX?"  Part="1" 
+AR Path="/5FD8BA50" Ref="MX56"  Part="1" 
+AR Path="/5EB180EA/5FD8BA50" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BA50" Ref="MX?"  Part="1" 
+F 0 "MX56" H 1308 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 1308 4224 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 650 4050 60  0001 C CNN
+F 3 "" H 650 4050 60  0001 C CNN
+	1    1275 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BA5A
+P 1150 4325
+AR Path="/5E22FDCD/5FD8BA5A" Ref="D?"  Part="1" 
+AR Path="/5FD8BA5A" Ref="D56"  Part="1" 
+AR Path="/5EB180EA/5FD8BA5A" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BA5A" Ref="D?"  Part="1" 
+F 0 "D56" H 1175 4400 50  0000 R CNN
+F 1 "SOD-123" H 1575 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1150 4325 50  0001 C CNN
+F 3 "~" V 1150 4325 50  0001 C CNN
+	1    1150 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 4225 1225 4225
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BA65
+P 1800 4075
+AR Path="/5E22FDCD/5FD8BA65" Ref="MX?"  Part="1" 
+AR Path="/5FD8BA65" Ref="MX57"  Part="1" 
+AR Path="/5EB180EA/5FD8BA65" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BA65" Ref="MX?"  Part="1" 
+F 0 "MX57" H 1833 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 1833 4224 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1175 4050 60  0001 C CNN
+F 3 "" H 1175 4050 60  0001 C CNN
+	1    1800 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BA6F
+P 1675 4325
+AR Path="/5E22FDCD/5FD8BA6F" Ref="D?"  Part="1" 
+AR Path="/5FD8BA6F" Ref="D57"  Part="1" 
+AR Path="/5EB180EA/5FD8BA6F" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BA6F" Ref="D?"  Part="1" 
+F 0 "D57" H 1700 4400 50  0000 R CNN
+F 1 "SOD-123" H 2100 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1675 4325 50  0001 C CNN
+F 3 "~" V 1675 4325 50  0001 C CNN
+	1    1675 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1675 4225 1750 4225
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BA7A
+P 2825 4075
+AR Path="/5E22FDCD/5FD8BA7A" Ref="MX?"  Part="1" 
+AR Path="/5FD8BA7A" Ref="MX59"  Part="1" 
+AR Path="/5EB180EA/5FD8BA7A" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BA7A" Ref="MX?"  Part="1" 
+F 0 "MX59" H 2858 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 2858 4224 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 2200 4050 60  0001 C CNN
+F 3 "" H 2200 4050 60  0001 C CNN
+	1    2825 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BA84
+P 2700 4325
+AR Path="/5E22FDCD/5FD8BA84" Ref="D?"  Part="1" 
+AR Path="/5FD8BA84" Ref="D59"  Part="1" 
+AR Path="/5EB180EA/5FD8BA84" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BA84" Ref="D?"  Part="1" 
+F 0 "D59" H 2725 4400 50  0000 R CNN
+F 1 "SOD-123" H 3125 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 4325 50  0001 C CNN
+F 3 "~" V 2700 4325 50  0001 C CNN
+	1    2700 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 4225 2775 4225
+Text Notes 1775 4350 0    50   ~ 0
+End
+Text Notes 1225 4350 0    50   ~ 0
+Home
+Wire Wire Line
+	1950 3375 1950 4025
+Wire Wire Line
+	2975 3375 2975 4025
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BA93
+P 3775 4075
+AR Path="/5E22FDCD/5FD8BA93" Ref="MX?"  Part="1" 
+AR Path="/5FD8BA93" Ref="MX61"  Part="1" 
+AR Path="/5EB180EA/5FD8BA93" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BA93" Ref="MX?"  Part="1" 
+F 0 "MX61" H 3808 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 3808 4224 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 3150 4050 60  0001 C CNN
+F 3 "" H 3150 4050 60  0001 C CNN
+	1    3775 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BA9D
+P 3700 4325
+AR Path="/5E22FDCD/5FD8BA9D" Ref="D?"  Part="1" 
+AR Path="/5FD8BA9D" Ref="D61"  Part="1" 
+AR Path="/5EB180EA/5FD8BA9D" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BA9D" Ref="D?"  Part="1" 
+F 0 "D61" H 3725 4400 50  0000 R CNN
+F 1 "SOD-123" H 4125 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3700 4325 50  0001 C CNN
+F 3 "~" V 3700 4325 50  0001 C CNN
+	1    3700 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1425 3375 1425 4025
+Wire Wire Line
+	900  4425 1150 4425
+Connection ~ 1150 4425
+Wire Wire Line
+	1150 4425 1675 4425
+Connection ~ 2700 4425
+Wire Wire Line
+	1675 4425 2200 4425
+Connection ~ 1675 4425
+Wire Wire Line
+	3725 4225 3700 4225
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BAAF
+P 4275 4075
+AR Path="/5E22FDCD/5FD8BAAF" Ref="MX?"  Part="1" 
+AR Path="/5FD8BAAF" Ref="MX62"  Part="1" 
+AR Path="/5EB180EA/5FD8BAAF" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BAAF" Ref="MX?"  Part="1" 
+F 0 "MX62" H 4308 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 4308 4224 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3650 4050 60  0001 C CNN
+F 3 "" H 3650 4050 60  0001 C CNN
+	1    4275 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BAB9
+P 4200 4325
+AR Path="/5E22FDCD/5FD8BAB9" Ref="D?"  Part="1" 
+AR Path="/5FD8BAB9" Ref="D62"  Part="1" 
+AR Path="/5EB180EA/5FD8BAB9" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BAB9" Ref="D?"  Part="1" 
+F 0 "D62" H 4225 4400 50  0000 R CNN
+F 1 "SOD-123" H 4625 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 4200 4325 50  0001 C CNN
+F 3 "~" V 4200 4325 50  0001 C CNN
+	1    4200 4325
+	0    -1   -1   0   
+$EndComp
+Text Notes 4275 4350 0    50   ~ 0
+s-Enter
+Wire Wire Line
+	4225 4225 4200 4225
+Wire Wire Line
+	4425 3375 4425 4025
+Wire Wire Line
+	3700 4425 4200 4425
+Wire Wire Line
+	2700 4425 3150 4425
+Text Notes 2300 4375 0    50   ~ 0
+>||
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FD8BAC9
+P 2325 4075
+AR Path="/5E22FDCD/5FD8BAC9" Ref="MX?"  Part="1" 
+AR Path="/5FD8BAC9" Ref="MX58"  Part="1" 
+AR Path="/5EB180EA/5FD8BAC9" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FD8BAC9" Ref="MX?"  Part="1" 
+F 0 "MX58" H 2358 4298 60  0000 C CNN
+F 1 "MX-NoLED" H 2358 4224 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1700 4050 60  0001 C CNN
+F 3 "" H 1700 4050 60  0001 C CNN
+	1    2325 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FD8BAD3
+P 2200 4325
+AR Path="/5E22FDCD/5FD8BAD3" Ref="D?"  Part="1" 
+AR Path="/5FD8BAD3" Ref="D58"  Part="1" 
+AR Path="/5EB180EA/5FD8BAD3" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FD8BAD3" Ref="D?"  Part="1" 
+F 0 "D58" H 2225 4400 50  0000 R CNN
+F 1 "SOD-123" H 2625 4400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2200 4325 50  0001 C CNN
+F 3 "~" V 2200 4325 50  0001 C CNN
+	1    2200 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 4225 2275 4225
+Connection ~ 2200 4425
+Wire Wire Line
+	2200 4425 2700 4425
+Wire Wire Line
+	2475 4025 2475 3375
+Connection ~ 3150 4425
+Connection ~ 3700 4425
+Wire Wire Line
+	3150 4425 3700 4425
+Wire Wire Line
+	3425 4025 3425 3375
+Connection ~ 1425 3375
+Connection ~ 1950 3375
+Connection ~ 2475 3375
+Connection ~ 2975 3375
+Connection ~ 3425 3375
+Connection ~ 4425 3375
+Wire Wire Line
+	3925 2075 3925 2725
+Connection ~ 3700 3125
+Wire Wire Line
+	3700 3125 4150 3125
+Wire Wire Line
+	3925 2725 3925 3325
+Connection ~ 3925 2725
+Connection ~ 4150 3125
+Wire Wire Line
+	1425 4025 1425 4875
+Connection ~ 1425 4025
+Connection ~ 1950 4025
+Wire Wire Line
+	2475 4025 2475 4750
+Connection ~ 2475 4025
+Connection ~ 2975 4025
+Connection ~ 3425 4025
+Wire Wire Line
+	3925 4025 3925 4600
+Connection ~ 3925 4025
+Wire Wire Line
+	4425 4025 4425 4550
+Connection ~ 4425 4025
+Connection ~ 4200 3775
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63DBD
+P 11250 1775
+AR Path="/5E22FDCD/5FF63DBD" Ref="MX?"  Part="1" 
+AR Path="/5FF63DBD" Ref="MX12"  Part="1" 
+AR Path="/5EB180EA/5FF63DBD" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63DBD" Ref="MX?"  Part="1" 
+F 0 "MX12" H 11283 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 11283 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10625 1750 60  0001 C CNN
+F 3 "" H 10625 1750 60  0001 C CNN
+	1    11250 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63DC7
+P 11125 2025
+AR Path="/5E22FDCD/5FF63DC7" Ref="D?"  Part="1" 
+AR Path="/5FF63DC7" Ref="D12"  Part="1" 
+AR Path="/5EB180EA/5FF63DC7" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63DC7" Ref="D?"  Part="1" 
+F 0 "D12" H 11150 2100 50  0000 R CNN
+F 1 "SOD-123" H 11550 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11125 2025 50  0001 C CNN
+F 3 "~" V 11125 2025 50  0001 C CNN
+	1    11125 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11125 1925 11200 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63DD2
+P 11750 1775
+AR Path="/5E22FDCD/5FF63DD2" Ref="MX?"  Part="1" 
+AR Path="/5FF63DD2" Ref="MX13"  Part="1" 
+AR Path="/5EB180EA/5FF63DD2" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63DD2" Ref="MX?"  Part="1" 
+F 0 "MX13" H 11783 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 11783 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11125 1750 60  0001 C CNN
+F 3 "" H 11125 1750 60  0001 C CNN
+	1    11750 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63DDC
+P 11625 2025
+AR Path="/5E22FDCD/5FF63DDC" Ref="D?"  Part="1" 
+AR Path="/5FF63DDC" Ref="D13"  Part="1" 
+AR Path="/5EB180EA/5FF63DDC" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63DDC" Ref="D?"  Part="1" 
+F 0 "D13" H 11650 2100 50  0000 R CNN
+F 1 "SOD-123" H 12050 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11625 2025 50  0001 C CNN
+F 3 "~" V 11625 2025 50  0001 C CNN
+	1    11625 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11625 1925 11700 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63DE7
+P 11250 2450
+AR Path="/5E22FDCD/5FF63DE7" Ref="MX?"  Part="1" 
+AR Path="/5FF63DE7" Ref="MX27"  Part="1" 
+AR Path="/5EB180EA/5FF63DE7" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63DE7" Ref="MX?"  Part="1" 
+F 0 "MX27" H 11283 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 11283 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10625 2425 60  0001 C CNN
+F 3 "" H 10625 2425 60  0001 C CNN
+	1    11250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63DF1
+P 11125 2700
+AR Path="/5E22FDCD/5FF63DF1" Ref="D?"  Part="1" 
+AR Path="/5FF63DF1" Ref="D27"  Part="1" 
+AR Path="/5EB180EA/5FF63DF1" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63DF1" Ref="D?"  Part="1" 
+F 0 "D27" H 11150 2775 50  0000 R CNN
+F 1 "SOD-123" H 11550 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11125 2700 50  0001 C CNN
+F 3 "~" V 11125 2700 50  0001 C CNN
+	1    11125 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11125 2600 11200 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63DFC
+P 11750 2450
+AR Path="/5E22FDCD/5FF63DFC" Ref="MX?"  Part="1" 
+AR Path="/5FF63DFC" Ref="MX28"  Part="1" 
+AR Path="/5EB180EA/5FF63DFC" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63DFC" Ref="MX?"  Part="1" 
+F 0 "MX28" H 11783 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 11783 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11125 2425 60  0001 C CNN
+F 3 "" H 11125 2425 60  0001 C CNN
+	1    11750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E06
+P 11625 2700
+AR Path="/5E22FDCD/5FF63E06" Ref="D?"  Part="1" 
+AR Path="/5FF63E06" Ref="D28"  Part="1" 
+AR Path="/5EB180EA/5FF63E06" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E06" Ref="D?"  Part="1" 
+F 0 "D28" H 11650 2775 50  0000 R CNN
+F 1 "SOD-123" H 12050 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11625 2700 50  0001 C CNN
+F 3 "~" V 11625 2700 50  0001 C CNN
+	1    11625 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11625 2600 11700 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E11
+P 11250 3100
+AR Path="/5E22FDCD/5FF63E11" Ref="MX?"  Part="1" 
+AR Path="/5FF63E11" Ref="MX41"  Part="1" 
+AR Path="/5EB180EA/5FF63E11" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E11" Ref="MX?"  Part="1" 
+F 0 "MX41" H 11283 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 11283 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10625 3075 60  0001 C CNN
+F 3 "" H 10625 3075 60  0001 C CNN
+	1    11250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E1B
+P 11125 3350
+AR Path="/5E22FDCD/5FF63E1B" Ref="D?"  Part="1" 
+AR Path="/5FF63E1B" Ref="D41"  Part="1" 
+AR Path="/5EB180EA/5FF63E1B" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E1B" Ref="D?"  Part="1" 
+F 0 "D41" H 11150 3425 50  0000 R CNN
+F 1 "SOD-123" H 11550 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11125 3350 50  0001 C CNN
+F 3 "~" V 11125 3350 50  0001 C CNN
+	1    11125 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11125 3250 11200 3250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E26
+P 11250 3750
+AR Path="/5E22FDCD/5FF63E26" Ref="MX?"  Part="1" 
+AR Path="/5FF63E26" Ref="MX53"  Part="1" 
+AR Path="/5EB180EA/5FF63E26" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E26" Ref="MX?"  Part="1" 
+F 0 "MX53" H 11283 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 11283 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10625 3725 60  0001 C CNN
+F 3 "" H 10625 3725 60  0001 C CNN
+	1    11250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E30
+P 11125 4000
+AR Path="/5E22FDCD/5FF63E30" Ref="D?"  Part="1" 
+AR Path="/5FF63E30" Ref="D53"  Part="1" 
+AR Path="/5EB180EA/5FF63E30" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E30" Ref="D?"  Part="1" 
+F 0 "D53" H 11150 4075 50  0000 R CNN
+F 1 "SOD-123" H 11550 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11125 4000 50  0001 C CNN
+F 3 "~" V 11125 4000 50  0001 C CNN
+	1    11125 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11125 3900 11200 3900
+Wire Wire Line
+	11400 1350 11400 1725
+Connection ~ 11400 1725
+Wire Wire Line
+	11400 1725 11400 2400
+Connection ~ 11400 2400
+Wire Wire Line
+	11400 2400 11400 3050
+Wire Wire Line
+	11900 1350 11900 1725
+Connection ~ 11900 1725
+Wire Wire Line
+	11900 1725 11900 2400
+Connection ~ 11900 2400
+Wire Wire Line
+	11125 2125 11625 2125
+Wire Wire Line
+	11125 2800 11625 2800
+Text Notes 11250 4025 0    50   ~ 0
+PGUP
+Text Notes 11775 3400 0    50   ~ 0
+Z
+Text Notes 10775 4050 0    50   ~ 0
+Cmd
+Wire Wire Line
+	10950 1350 10950 1725
+Wire Wire Line
+	10950 1725 10950 2400
+Connection ~ 10950 1725
+Connection ~ 10950 2400
+Wire Wire Line
+	10950 2400 10950 3050
+Connection ~ 10950 3050
+Connection ~ 11125 2125
+Connection ~ 11125 2800
+Connection ~ 11125 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E52
+P 9775 1775
+AR Path="/5E22FDCD/5FF63E52" Ref="MX?"  Part="1" 
+AR Path="/5FF63E52" Ref="MX9"  Part="1" 
+AR Path="/5EB180EA/5FF63E52" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E52" Ref="MX?"  Part="1" 
+F 0 "MX9" H 9808 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 9808 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9150 1750 60  0001 C CNN
+F 3 "" H 9150 1750 60  0001 C CNN
+	1    9775 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E5C
+P 9625 2025
+AR Path="/5E22FDCD/5FF63E5C" Ref="D?"  Part="1" 
+AR Path="/5FF63E5C" Ref="D9"  Part="1" 
+AR Path="/5EB180EA/5FF63E5C" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E5C" Ref="D?"  Part="1" 
+F 0 "D9" H 9650 2100 50  0000 R CNN
+F 1 "SOD-123" H 10050 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9625 2025 50  0001 C CNN
+F 3 "~" V 9625 2025 50  0001 C CNN
+	1    9625 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9625 1925 9725 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E67
+P 9775 2450
+AR Path="/5E22FDCD/5FF63E67" Ref="MX?"  Part="1" 
+AR Path="/5FF63E67" Ref="MX24"  Part="1" 
+AR Path="/5EB180EA/5FF63E67" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E67" Ref="MX?"  Part="1" 
+F 0 "MX24" H 9808 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 9808 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9150 2425 60  0001 C CNN
+F 3 "" H 9150 2425 60  0001 C CNN
+	1    9775 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E71
+P 9625 2700
+AR Path="/5E22FDCD/5FF63E71" Ref="D?"  Part="1" 
+AR Path="/5FF63E71" Ref="D24"  Part="1" 
+AR Path="/5EB180EA/5FF63E71" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E71" Ref="D?"  Part="1" 
+F 0 "D24" H 9650 2775 50  0000 R CNN
+F 1 "SOD-123" H 10050 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9625 2700 50  0001 C CNN
+F 3 "~" V 9625 2700 50  0001 C CNN
+	1    9625 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9625 2600 9725 2600
+Connection ~ 9925 1725
+Wire Wire Line
+	9925 1725 9925 2400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E7F
+P 10300 1775
+AR Path="/5E22FDCD/5FF63E7F" Ref="MX?"  Part="1" 
+AR Path="/5FF63E7F" Ref="MX10"  Part="1" 
+AR Path="/5EB180EA/5FF63E7F" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E7F" Ref="MX?"  Part="1" 
+F 0 "MX10" H 10333 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 10333 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9675 1750 60  0001 C CNN
+F 3 "" H 9675 1750 60  0001 C CNN
+	1    10300 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E89
+P 10175 2025
+AR Path="/5E22FDCD/5FF63E89" Ref="D?"  Part="1" 
+AR Path="/5FF63E89" Ref="D10"  Part="1" 
+AR Path="/5EB180EA/5FF63E89" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E89" Ref="D?"  Part="1" 
+F 0 "D10" H 10200 2100 50  0000 R CNN
+F 1 "SOD-123" H 10600 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10175 2025 50  0001 C CNN
+F 3 "~" V 10175 2025 50  0001 C CNN
+	1    10175 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10175 1925 10250 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63E94
+P 10800 1775
+AR Path="/5E22FDCD/5FF63E94" Ref="MX?"  Part="1" 
+AR Path="/5FF63E94" Ref="MX11"  Part="1" 
+AR Path="/5EB180EA/5FF63E94" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63E94" Ref="MX?"  Part="1" 
+F 0 "MX11" H 10833 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 10833 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10175 1750 60  0001 C CNN
+F 3 "" H 10175 1750 60  0001 C CNN
+	1    10800 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63E9E
+P 10675 2025
+AR Path="/5E22FDCD/5FF63E9E" Ref="D?"  Part="1" 
+AR Path="/5FF63E9E" Ref="D11"  Part="1" 
+AR Path="/5EB180EA/5FF63E9E" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63E9E" Ref="D?"  Part="1" 
+F 0 "D11" H 10700 2100 50  0000 R CNN
+F 1 "SOD-123" H 11100 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10675 2025 50  0001 C CNN
+F 3 "~" V 10675 2025 50  0001 C CNN
+	1    10675 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 1925 10750 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63EA9
+P 10300 2450
+AR Path="/5E22FDCD/5FF63EA9" Ref="MX?"  Part="1" 
+AR Path="/5FF63EA9" Ref="MX25"  Part="1" 
+AR Path="/5EB180EA/5FF63EA9" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63EA9" Ref="MX?"  Part="1" 
+F 0 "MX25" H 10333 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 10333 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9675 2425 60  0001 C CNN
+F 3 "" H 9675 2425 60  0001 C CNN
+	1    10300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63EB3
+P 10175 2700
+AR Path="/5E22FDCD/5FF63EB3" Ref="D?"  Part="1" 
+AR Path="/5FF63EB3" Ref="D25"  Part="1" 
+AR Path="/5EB180EA/5FF63EB3" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63EB3" Ref="D?"  Part="1" 
+F 0 "D25" H 10200 2775 50  0000 R CNN
+F 1 "SOD-123" H 10600 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10175 2700 50  0001 C CNN
+F 3 "~" V 10175 2700 50  0001 C CNN
+	1    10175 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10175 2600 10250 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63EBE
+P 10800 2450
+AR Path="/5E22FDCD/5FF63EBE" Ref="MX?"  Part="1" 
+AR Path="/5FF63EBE" Ref="MX26"  Part="1" 
+AR Path="/5EB180EA/5FF63EBE" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63EBE" Ref="MX?"  Part="1" 
+F 0 "MX26" H 10833 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 10833 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10175 2425 60  0001 C CNN
+F 3 "" H 10175 2425 60  0001 C CNN
+	1    10800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63EC8
+P 10675 2700
+AR Path="/5E22FDCD/5FF63EC8" Ref="D?"  Part="1" 
+AR Path="/5FF63EC8" Ref="D26"  Part="1" 
+AR Path="/5EB180EA/5FF63EC8" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63EC8" Ref="D?"  Part="1" 
+F 0 "D26" H 10700 2775 50  0000 R CNN
+F 1 "SOD-123" H 11100 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10675 2700 50  0001 C CNN
+F 3 "~" V 10675 2700 50  0001 C CNN
+	1    10675 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 2600 10750 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63ED3
+P 9775 3100
+AR Path="/5E22FDCD/5FF63ED3" Ref="MX?"  Part="1" 
+AR Path="/5FF63ED3" Ref="MX38"  Part="1" 
+AR Path="/5EB180EA/5FF63ED3" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63ED3" Ref="MX?"  Part="1" 
+F 0 "MX38" H 9808 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 9808 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9150 3075 60  0001 C CNN
+F 3 "" H 9150 3075 60  0001 C CNN
+	1    9775 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63EDD
+P 9625 3350
+AR Path="/5E22FDCD/5FF63EDD" Ref="D?"  Part="1" 
+AR Path="/5FF63EDD" Ref="D38"  Part="1" 
+AR Path="/5EB180EA/5FF63EDD" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63EDD" Ref="D?"  Part="1" 
+F 0 "D38" H 9650 3425 50  0000 R CNN
+F 1 "SOD-123" H 10050 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9625 3350 50  0001 C CNN
+F 3 "~" V 9625 3350 50  0001 C CNN
+	1    9625 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9625 3250 9725 3250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63EE8
+P 10300 3100
+AR Path="/5E22FDCD/5FF63EE8" Ref="MX?"  Part="1" 
+AR Path="/5FF63EE8" Ref="MX39"  Part="1" 
+AR Path="/5EB180EA/5FF63EE8" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63EE8" Ref="MX?"  Part="1" 
+F 0 "MX39" H 10333 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 10333 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9675 3075 60  0001 C CNN
+F 3 "" H 9675 3075 60  0001 C CNN
+	1    10300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63EF2
+P 10175 3350
+AR Path="/5E22FDCD/5FF63EF2" Ref="D?"  Part="1" 
+AR Path="/5FF63EF2" Ref="D39"  Part="1" 
+AR Path="/5EB180EA/5FF63EF2" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63EF2" Ref="D?"  Part="1" 
+F 0 "D39" H 10200 3425 50  0000 R CNN
+F 1 "SOD-123" H 10600 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10175 3350 50  0001 C CNN
+F 3 "~" V 10175 3350 50  0001 C CNN
+	1    10175 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10175 3250 10250 3250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63EFD
+P 10800 3100
+AR Path="/5E22FDCD/5FF63EFD" Ref="MX?"  Part="1" 
+AR Path="/5FF63EFD" Ref="MX40"  Part="1" 
+AR Path="/5EB180EA/5FF63EFD" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63EFD" Ref="MX?"  Part="1" 
+F 0 "MX40" H 10833 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 10833 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10175 3075 60  0001 C CNN
+F 3 "" H 10175 3075 60  0001 C CNN
+	1    10800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F07
+P 10675 3350
+AR Path="/5E22FDCD/5FF63F07" Ref="D?"  Part="1" 
+AR Path="/5FF63F07" Ref="D40"  Part="1" 
+AR Path="/5EB180EA/5FF63F07" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F07" Ref="D?"  Part="1" 
+F 0 "D40" H 10700 3425 50  0000 R CNN
+F 1 "SOD-123" H 11100 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10675 3350 50  0001 C CNN
+F 3 "~" V 10675 3350 50  0001 C CNN
+	1    10675 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 3250 10750 3250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63F12
+P 9250 3750
+AR Path="/5E22FDCD/5FF63F12" Ref="MX?"  Part="1" 
+AR Path="/5FF63F12" Ref="MX50"  Part="1" 
+AR Path="/5EB180EA/5FF63F12" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63F12" Ref="MX?"  Part="1" 
+F 0 "MX50" H 9283 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8625 3725 60  0001 C CNN
+F 3 "" H 8625 3725 60  0001 C CNN
+	1    9250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F1C
+P 9125 4000
+AR Path="/5E22FDCD/5FF63F1C" Ref="D?"  Part="1" 
+AR Path="/5FF63F1C" Ref="D50"  Part="1" 
+AR Path="/5EB180EA/5FF63F1C" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F1C" Ref="D?"  Part="1" 
+F 0 "D50" H 9150 4075 50  0000 R CNN
+F 1 "SOD-123" H 9550 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9125 4000 50  0001 C CNN
+F 3 "~" V 9125 4000 50  0001 C CNN
+	1    9125 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9125 3900 9200 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63F27
+P 12800 1775
+AR Path="/5E22FDCD/5FF63F27" Ref="MX?"  Part="1" 
+AR Path="/5FF63F27" Ref="MX15"  Part="1" 
+AR Path="/5EB180EA/5FF63F27" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63F27" Ref="MX?"  Part="1" 
+F 0 "MX15" H 12833 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 12833 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 12175 1750 60  0001 C CNN
+F 3 "" H 12175 1750 60  0001 C CNN
+	1    12800 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F31
+P 12675 2025
+AR Path="/5E22FDCD/5FF63F31" Ref="D?"  Part="1" 
+AR Path="/5FF63F31" Ref="D15"  Part="1" 
+AR Path="/5EB180EA/5FF63F31" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F31" Ref="D?"  Part="1" 
+F 0 "D15" H 12700 2100 50  0000 R CNN
+F 1 "SOD-123" H 13100 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12675 2025 50  0001 C CNN
+F 3 "~" V 12675 2025 50  0001 C CNN
+	1    12675 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12675 1925 12750 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63F3C
+P 10800 3750
+AR Path="/5E22FDCD/5FF63F3C" Ref="MX?"  Part="1" 
+AR Path="/5FF63F3C" Ref="MX52"  Part="1" 
+AR Path="/5EB180EA/5FF63F3C" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63F3C" Ref="MX?"  Part="1" 
+F 0 "MX52" H 10833 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 10833 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap" H 10175 3725 60  0001 C CNN
+F 3 "" H 10175 3725 60  0001 C CNN
+	1    10800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F46
+P 10675 4000
+AR Path="/5E22FDCD/5FF63F46" Ref="D?"  Part="1" 
+AR Path="/5FF63F46" Ref="D52"  Part="1" 
+AR Path="/5EB180EA/5FF63F46" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F46" Ref="D?"  Part="1" 
+F 0 "D52" H 10700 4075 50  0000 R CNN
+F 1 "SOD-123" H 11100 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10675 4000 50  0001 C CNN
+F 3 "~" V 10675 4000 50  0001 C CNN
+	1    10675 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 3900 10750 3900
+Text Notes 12775 1975 0    50   ~ 0
+BS
+Text Notes 9175 4025 0    50   ~ 0
+s-Tab
+Wire Wire Line
+	9925 2400 9925 3050
+Connection ~ 9925 2400
+Connection ~ 9925 3050
+Wire Wire Line
+	10450 1350 10450 1725
+Connection ~ 10450 1725
+Wire Wire Line
+	10450 1725 10450 2400
+Connection ~ 10450 2400
+Wire Wire Line
+	10450 2400 10450 3050
+Wire Wire Line
+	10950 3050 10950 3700
+Connection ~ 10175 2125
+Wire Wire Line
+	10175 2125 10675 2125
+Connection ~ 10675 2125
+Wire Wire Line
+	10675 2125 11125 2125
+Connection ~ 10175 2800
+Wire Wire Line
+	10175 2800 10675 2800
+Connection ~ 10675 2800
+Wire Wire Line
+	10675 2800 11125 2800
+Connection ~ 10175 3450
+Wire Wire Line
+	10175 3450 10675 3450
+Connection ~ 10675 3450
+Wire Wire Line
+	10675 3450 11125 3450
+Text Notes 10300 3375 0    50   ~ 0
+M
+Text Notes 9775 3400 0    50   ~ 0
+B
+Wire Wire Line
+	11625 2125 12125 2125
+Connection ~ 11625 2125
+Wire Wire Line
+	11625 2800 12125 2800
+Connection ~ 11625 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63F6F
+P 11750 3100
+AR Path="/5E22FDCD/5FF63F6F" Ref="MX?"  Part="1" 
+AR Path="/5FF63F6F" Ref="MX42"  Part="1" 
+AR Path="/5EB180EA/5FF63F6F" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63F6F" Ref="MX?"  Part="1" 
+F 0 "MX42" H 11783 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 11783 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11125 3075 60  0001 C CNN
+F 3 "" H 11125 3075 60  0001 C CNN
+	1    11750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F79
+P 11675 3350
+AR Path="/5E22FDCD/5FF63F79" Ref="D?"  Part="1" 
+AR Path="/5FF63F79" Ref="D42"  Part="1" 
+AR Path="/5EB180EA/5FF63F79" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F79" Ref="D?"  Part="1" 
+F 0 "D42" H 11700 3425 50  0000 R CNN
+F 1 "SOD-123" H 12100 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11675 3350 50  0001 C CNN
+F 3 "~" V 11675 3350 50  0001 C CNN
+	1    11675 3350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8875 2800 0    50   Input ~ 0
+ROW1
+Text GLabel 8875 3450 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	9625 3450 10175 3450
+Wire Wire Line
+	9625 2800 10175 2800
+Wire Wire Line
+	9625 2125 10175 2125
+Wire Wire Line
+	8875 2800 9125 2800
+Wire Wire Line
+	9400 2400 9400 3050
+Connection ~ 9400 2400
+Wire Wire Line
+	8875 3450 9125 3450
+Wire Wire Line
+	9400 3050 9400 3700
+Connection ~ 9400 3050
+Wire Wire Line
+	9400 1725 9400 2400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63F8F
+P 9250 3100
+AR Path="/5E22FDCD/5FF63F8F" Ref="MX?"  Part="1" 
+AR Path="/5FF63F8F" Ref="MX37"  Part="1" 
+AR Path="/5EB180EA/5FF63F8F" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63F8F" Ref="MX?"  Part="1" 
+F 0 "MX37" H 9283 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8625 3075 60  0001 C CNN
+F 3 "" H 8625 3075 60  0001 C CNN
+	1    9250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 3250 9200 3250
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63F9A
+P 9125 3350
+AR Path="/5E22FDCD/5FF63F9A" Ref="D?"  Part="1" 
+AR Path="/5FF63F9A" Ref="D37"  Part="1" 
+AR Path="/5EB180EA/5FF63F9A" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63F9A" Ref="D?"  Part="1" 
+F 0 "D37" H 9150 3425 50  0000 R CNN
+F 1 "SOD-123" H 9550 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9125 3350 50  0001 C CNN
+F 3 "~" V 9125 3350 50  0001 C CNN
+	1    9125 3350
+	0    -1   -1   0   
+$EndComp
+Text Notes 9250 2725 0    50   ~ 0
+D
+Text Notes 9175 3400 0    50   ~ 0
+XXX
+Text Notes 9200 2050 0    50   ~ 0
+F
+Wire Wire Line
+	9100 2125 8875 2125
+Connection ~ 9400 1725
+Wire Wire Line
+	9400 1350 9400 1725
+Wire Wire Line
+	9125 2600 9200 2600
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63FAB
+P 9125 2700
+AR Path="/5E22FDCD/5FF63FAB" Ref="D?"  Part="1" 
+AR Path="/5FF63FAB" Ref="D23"  Part="1" 
+AR Path="/5EB180EA/5FF63FAB" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63FAB" Ref="D?"  Part="1" 
+F 0 "D23" H 9150 2775 50  0000 R CNN
+F 1 "SOD-123" H 9550 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9125 2700 50  0001 C CNN
+F 3 "~" V 9125 2700 50  0001 C CNN
+	1    9125 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63FB5
+P 9250 2450
+AR Path="/5E22FDCD/5FF63FB5" Ref="MX?"  Part="1" 
+AR Path="/5FF63FB5" Ref="MX23"  Part="1" 
+AR Path="/5EB180EA/5FF63FB5" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63FB5" Ref="MX?"  Part="1" 
+F 0 "MX23" H 9283 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8625 2425 60  0001 C CNN
+F 3 "" H 8625 2425 60  0001 C CNN
+	1    9250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1925 9200 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63FC0
+P 9250 1775
+AR Path="/5E22FDCD/5FF63FC0" Ref="MX?"  Part="1" 
+AR Path="/5FF63FC0" Ref="MX8"  Part="1" 
+AR Path="/5EB180EA/5FF63FC0" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63FC0" Ref="MX?"  Part="1" 
+F 0 "MX8" H 9283 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8625 1750 60  0001 C CNN
+F 3 "" H 8625 1750 60  0001 C CNN
+	1    9250 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2125 9625 2125
+Connection ~ 9100 2125
+Connection ~ 9625 2125
+Wire Wire Line
+	9125 2800 9625 2800
+Connection ~ 9125 2800
+Connection ~ 9625 2800
+Wire Wire Line
+	9125 3450 9625 3450
+Connection ~ 9125 3450
+Connection ~ 9625 3450
+Wire Wire Line
+	8875 4100 9125 4100
+Connection ~ 9125 4100
+Connection ~ 10675 4100
+Text GLabel 8875 4100 0    50   Input ~ 0
+ROW3
+Text GLabel 8875 2125 0    50   Input ~ 0
+ROW0
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63FD9
+P 9100 2025
+AR Path="/5E22FDCD/5FF63FD9" Ref="D?"  Part="1" 
+AR Path="/5FF63FD9" Ref="D8"  Part="1" 
+AR Path="/5EB180EA/5FF63FD9" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63FD9" Ref="D?"  Part="1" 
+F 0 "D8" H 9125 2100 50  0000 R CNN
+F 1 "SOD-123" H 9525 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9100 2025 50  0001 C CNN
+F 3 "~" V 9100 2025 50  0001 C CNN
+	1    9100 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11700 3250 11675 3250
+Text GLabel 8875 4750 0    50   Input ~ 0
+ROW4
+Text Notes 9750 2750 0    50   ~ 0
+H
+Text Notes 9750 2050 0    50   ~ 0
+G
+Text Notes 10300 2050 0    50   ~ 0
+‘
+Text Notes 11750 2750 0    50   ~ 0
+-
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF63FEB
+P 12250 1775
+AR Path="/5E22FDCD/5FF63FEB" Ref="MX?"  Part="1" 
+AR Path="/5FF63FEB" Ref="MX14"  Part="1" 
+AR Path="/5EB180EA/5FF63FEB" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF63FEB" Ref="MX?"  Part="1" 
+F 0 "MX14" H 12283 1998 60  0000 C CNN
+F 1 "MX-NoLED" H 12283 1924 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11625 1750 60  0001 C CNN
+F 3 "" H 11625 1750 60  0001 C CNN
+	1    12250 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF63FF5
+P 12125 2025
+AR Path="/5E22FDCD/5FF63FF5" Ref="D?"  Part="1" 
+AR Path="/5FF63FF5" Ref="D14"  Part="1" 
+AR Path="/5EB180EA/5FF63FF5" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF63FF5" Ref="D?"  Part="1" 
+F 0 "D14" H 12150 2100 50  0000 R CNN
+F 1 "SOD-123" H 12550 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12125 2025 50  0001 C CNN
+F 3 "~" V 12125 2025 50  0001 C CNN
+	1    12125 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12125 1925 12200 1925
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64000
+P 12250 2450
+AR Path="/5E22FDCD/5FF64000" Ref="MX?"  Part="1" 
+AR Path="/5FF64000" Ref="MX29"  Part="1" 
+AR Path="/5EB180EA/5FF64000" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64000" Ref="MX?"  Part="1" 
+F 0 "MX29" H 12283 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 12283 2599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U-Hotswap" H 11625 2425 60  0001 C CNN
+F 3 "" H 11625 2425 60  0001 C CNN
+	1    12250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF6400A
+P 12125 2700
+AR Path="/5E22FDCD/5FF6400A" Ref="D?"  Part="1" 
+AR Path="/5FF6400A" Ref="D29"  Part="1" 
+AR Path="/5EB180EA/5FF6400A" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF6400A" Ref="D?"  Part="1" 
+F 0 "D29" H 12150 2775 50  0000 R CNN
+F 1 "SOD-123" H 12550 2775 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12125 2700 50  0001 C CNN
+F 3 "~" V 12125 2700 50  0001 C CNN
+	1    12125 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12125 2600 12200 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64015
+P 12250 3100
+AR Path="/5E22FDCD/5FF64015" Ref="MX?"  Part="1" 
+AR Path="/5FF64015" Ref="MX43"  Part="1" 
+AR Path="/5EB180EA/5FF64015" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64015" Ref="MX?"  Part="1" 
+F 0 "MX43" H 12283 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 12283 3249 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 11625 3075 60  0001 C CNN
+F 3 "" H 11625 3075 60  0001 C CNN
+	1    12250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF6401F
+P 12125 3350
+AR Path="/5E22FDCD/5FF6401F" Ref="D?"  Part="1" 
+AR Path="/5FF6401F" Ref="D43"  Part="1" 
+AR Path="/5EB180EA/5FF6401F" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF6401F" Ref="D?"  Part="1" 
+F 0 "D43" H 12150 3425 50  0000 R CNN
+F 1 "SOD-123" H 12550 3425 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12125 3350 50  0001 C CNN
+F 3 "~" V 12125 3350 50  0001 C CNN
+	1    12125 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12125 3250 12200 3250
+Text Notes 12250 2050 0    50   ~ 0
+=
+Wire Wire Line
+	12400 1350 12400 1725
+Connection ~ 12400 1725
+Wire Wire Line
+	12400 1725 12400 2400
+Connection ~ 12400 2400
+Wire Wire Line
+	12400 2400 12400 3050
+Text Notes 12200 3375 0    50   ~ 0
+Shift
+Text Notes 12200 2750 0    50   ~ 0
+Enter
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64032
+P 12250 3750
+AR Path="/5E22FDCD/5FF64032" Ref="MX?"  Part="1" 
+AR Path="/5FF64032" Ref="MX55"  Part="1" 
+AR Path="/5EB180EA/5FF64032" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64032" Ref="MX?"  Part="1" 
+F 0 "MX55" H 12283 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 12283 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11625 3725 60  0001 C CNN
+F 3 "" H 11625 3725 60  0001 C CNN
+	1    12250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF6403C
+P 12175 4000
+AR Path="/5E22FDCD/5FF6403C" Ref="D?"  Part="1" 
+AR Path="/5FF6403C" Ref="D55"  Part="1" 
+AR Path="/5EB180EA/5FF6403C" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF6403C" Ref="D?"  Part="1" 
+F 0 "D55" H 12200 4075 50  0000 R CNN
+F 1 "SOD-123" H 12600 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12175 4000 50  0001 C CNN
+F 3 "~" V 12175 4000 50  0001 C CNN
+	1    12175 4000
+	0    -1   -1   0   
+$EndComp
+Text Notes 12250 4025 0    50   ~ 0
+PGDN
+Connection ~ 12400 3050
+Wire Wire Line
+	12200 3900 12175 3900
+Wire Wire Line
+	12400 3050 12400 3700
+Wire Wire Line
+	10675 4100 11125 4100
+Text Notes 10275 4050 0    50   ~ 0
+Space
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64050
+P 10300 3750
+AR Path="/5E22FDCD/5FF64050" Ref="MX?"  Part="1" 
+AR Path="/5FF64050" Ref="MX51"  Part="1" 
+AR Path="/5EB180EA/5FF64050" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64050" Ref="MX?"  Part="1" 
+F 0 "MX51" H 10333 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 10333 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 9675 3725 60  0001 C CNN
+F 3 "" H 9675 3725 60  0001 C CNN
+	1    10300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF6405A
+P 10175 4000
+AR Path="/5E22FDCD/5FF6405A" Ref="D?"  Part="1" 
+AR Path="/5FF6405A" Ref="D51"  Part="1" 
+AR Path="/5EB180EA/5FF6405A" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF6405A" Ref="D?"  Part="1" 
+F 0 "D51" H 10200 4075 50  0000 R CNN
+F 1 "SOD-123" H 10600 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10175 4000 50  0001 C CNN
+F 3 "~" V 10175 4000 50  0001 C CNN
+	1    10175 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10175 3900 10250 3900
+Connection ~ 10175 4100
+Wire Wire Line
+	10175 4100 10675 4100
+Wire Wire Line
+	10450 3700 10450 3050
+Connection ~ 10450 3050
+Wire Wire Line
+	11125 3450 11675 3450
+Connection ~ 11125 4100
+Wire Wire Line
+	11400 3700 11400 3050
+Connection ~ 11400 3050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF6406D
+P 11250 4400
+AR Path="/5E22FDCD/5FF6406D" Ref="MX?"  Part="1" 
+AR Path="/5FF6406D" Ref="MX67"  Part="1" 
+AR Path="/5EB180EA/5FF6406D" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF6406D" Ref="MX?"  Part="1" 
+F 0 "MX67" H 11283 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 11283 4549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 10625 4375 60  0001 C CNN
+F 3 "" H 10625 4375 60  0001 C CNN
+	1    11250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF64077
+P 11125 4650
+AR Path="/5E22FDCD/5FF64077" Ref="D?"  Part="1" 
+AR Path="/5FF64077" Ref="D67"  Part="1" 
+AR Path="/5EB180EA/5FF64077" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF64077" Ref="D?"  Part="1" 
+F 0 "D67" H 11150 4725 50  0000 R CNN
+F 1 "SOD-123" H 11550 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11125 4650 50  0001 C CNN
+F 3 "~" V 11125 4650 50  0001 C CNN
+	1    11125 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11125 4550 11200 4550
+Text Notes 10775 4700 0    50   ~ 0
+prin
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64083
+P 9250 4400
+AR Path="/5E22FDCD/5FF64083" Ref="MX?"  Part="1" 
+AR Path="/5FF64083" Ref="MX63"  Part="1" 
+AR Path="/5EB180EA/5FF64083" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64083" Ref="MX?"  Part="1" 
+F 0 "MX63" H 9283 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 4549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8625 4375 60  0001 C CNN
+F 3 "" H 8625 4375 60  0001 C CNN
+	1    9250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF6408D
+P 9125 4650
+AR Path="/5E22FDCD/5FF6408D" Ref="D?"  Part="1" 
+AR Path="/5FF6408D" Ref="D63"  Part="1" 
+AR Path="/5EB180EA/5FF6408D" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF6408D" Ref="D?"  Part="1" 
+F 0 "D63" H 9150 4725 50  0000 R CNN
+F 1 "SOD-123" H 9550 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9125 4650 50  0001 C CNN
+F 3 "~" V 9125 4650 50  0001 C CNN
+	1    9125 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9125 4550 9200 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF64098
+P 9775 4400
+AR Path="/5E22FDCD/5FF64098" Ref="MX?"  Part="1" 
+AR Path="/5FF64098" Ref="MX64"  Part="1" 
+AR Path="/5EB180EA/5FF64098" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF64098" Ref="MX?"  Part="1" 
+F 0 "MX64" H 9808 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 9808 4549 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 9150 4375 60  0001 C CNN
+F 3 "" H 9150 4375 60  0001 C CNN
+	1    9775 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF640A2
+P 9650 4650
+AR Path="/5E22FDCD/5FF640A2" Ref="D?"  Part="1" 
+AR Path="/5FF640A2" Ref="D64"  Part="1" 
+AR Path="/5EB180EA/5FF640A2" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF640A2" Ref="D?"  Part="1" 
+F 0 "D64" H 9675 4725 50  0000 R CNN
+F 1 "SOD-123" H 10075 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 9650 4650 50  0001 C CNN
+F 3 "~" V 9650 4650 50  0001 C CNN
+	1    9650 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 4550 9725 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF640AD
+P 10800 4400
+AR Path="/5E22FDCD/5FF640AD" Ref="MX?"  Part="1" 
+AR Path="/5FF640AD" Ref="MX66"  Part="1" 
+AR Path="/5EB180EA/5FF640AD" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF640AD" Ref="MX?"  Part="1" 
+F 0 "MX66" H 10833 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 10833 4549 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 10175 4375 60  0001 C CNN
+F 3 "" H 10175 4375 60  0001 C CNN
+	1    10800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF640B7
+P 10675 4650
+AR Path="/5E22FDCD/5FF640B7" Ref="D?"  Part="1" 
+AR Path="/5FF640B7" Ref="D66"  Part="1" 
+AR Path="/5EB180EA/5FF640B7" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF640B7" Ref="D?"  Part="1" 
+F 0 "D66" H 10700 4725 50  0000 R CNN
+F 1 "SOD-123" H 11100 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10675 4650 50  0001 C CNN
+F 3 "~" V 10675 4650 50  0001 C CNN
+	1    10675 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 4550 10750 4550
+Text Notes 9750 4675 0    50   ~ 0
+F10
+Text Notes 9200 4675 0    50   ~ 0
+s-Enter
+Wire Wire Line
+	10950 3700 10950 4350
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF640C6
+P 11750 4400
+AR Path="/5E22FDCD/5FF640C6" Ref="MX?"  Part="1" 
+AR Path="/5FF640C6" Ref="MX68"  Part="1" 
+AR Path="/5EB180EA/5FF640C6" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF640C6" Ref="MX?"  Part="1" 
+F 0 "MX68" H 11783 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 11783 4549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11125 4375 60  0001 C CNN
+F 3 "" H 11125 4375 60  0001 C CNN
+	1    11750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF640D0
+P 11675 4650
+AR Path="/5E22FDCD/5FF640D0" Ref="D?"  Part="1" 
+AR Path="/5FF640D0" Ref="D68"  Part="1" 
+AR Path="/5EB180EA/5FF640D0" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF640D0" Ref="D?"  Part="1" 
+F 0 "D68" H 11700 4725 50  0000 R CNN
+F 1 "SOD-123" H 12100 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11675 4650 50  0001 C CNN
+F 3 "~" V 11675 4650 50  0001 C CNN
+	1    11675 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 3700 9400 4350
+Wire Wire Line
+	8875 4750 9125 4750
+Connection ~ 9125 4750
+Wire Wire Line
+	9125 4750 9650 4750
+Connection ~ 10675 4750
+Wire Wire Line
+	9650 4750 10175 4750
+Connection ~ 9650 4750
+Wire Wire Line
+	11700 4550 11675 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF640E2
+P 12250 4400
+AR Path="/5E22FDCD/5FF640E2" Ref="MX?"  Part="1" 
+AR Path="/5FF640E2" Ref="MX69"  Part="1" 
+AR Path="/5EB180EA/5FF640E2" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF640E2" Ref="MX?"  Part="1" 
+F 0 "MX69" H 12283 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 12283 4549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11625 4375 60  0001 C CNN
+F 3 "" H 11625 4375 60  0001 C CNN
+	1    12250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF640EC
+P 12175 4650
+AR Path="/5E22FDCD/5FF640EC" Ref="D?"  Part="1" 
+AR Path="/5FF640EC" Ref="D69"  Part="1" 
+AR Path="/5EB180EA/5FF640EC" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF640EC" Ref="D?"  Part="1" 
+F 0 "D69" H 12200 4725 50  0000 R CNN
+F 1 "SOD-123" H 12600 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 12175 4650 50  0001 C CNN
+F 3 "~" V 12175 4650 50  0001 C CNN
+	1    12175 4650
+	0    -1   -1   0   
+$EndComp
+Text Notes 12250 4675 0    50   ~ 0
+->
+Wire Wire Line
+	12200 4550 12175 4550
+Wire Wire Line
+	12400 3700 12400 4350
+Wire Wire Line
+	11675 4750 12175 4750
+Wire Wire Line
+	10675 4750 11125 4750
+Text Notes 10275 4700 0    50   ~ 0
+F7
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FF640FC
+P 10300 4400
+AR Path="/5E22FDCD/5FF640FC" Ref="MX?"  Part="1" 
+AR Path="/5FF640FC" Ref="MX65"  Part="1" 
+AR Path="/5EB180EA/5FF640FC" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/5FF640FC" Ref="MX?"  Part="1" 
+F 0 "MX65" H 10333 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 10333 4549 20  0000 C CNN
+F 2 "miyajima:KailhChoc-1U-hotswap" H 9675 4375 60  0001 C CNN
+F 3 "" H 9675 4375 60  0001 C CNN
+	1    10300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FF64106
+P 10175 4650
+AR Path="/5E22FDCD/5FF64106" Ref="D?"  Part="1" 
+AR Path="/5FF64106" Ref="D65"  Part="1" 
+AR Path="/5EB180EA/5FF64106" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FF64106" Ref="D?"  Part="1" 
+F 0 "D65" H 10200 4725 50  0000 R CNN
+F 1 "SOD-123" H 10600 4725 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 10175 4650 50  0001 C CNN
+F 3 "~" V 10175 4650 50  0001 C CNN
+	1    10175 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10175 4550 10250 4550
+Connection ~ 10175 4750
+Wire Wire Line
+	10175 4750 10675 4750
+Wire Wire Line
+	10450 4350 10450 3700
+Connection ~ 11125 4750
+Connection ~ 11675 4750
+Wire Wire Line
+	11125 4750 11675 4750
+Wire Wire Line
+	11400 4350 11400 3700
+Connection ~ 9400 3700
+Connection ~ 10450 3700
+Connection ~ 10950 3700
+Connection ~ 11400 3700
+Connection ~ 12400 3700
+Wire Wire Line
+	11900 2400 11900 3050
+Connection ~ 11675 3450
+Wire Wire Line
+	11675 3450 12125 3450
+Wire Wire Line
+	11125 4100 11675 4100
+Wire Wire Line
+	11900 3050 11900 3700
+Connection ~ 11900 3050
+Wire Wire Line
+	12175 4100 12850 4100
+Connection ~ 12175 4100
+Text GLabel 12400 1350 0    50   Input ~ 0
+COL13
+Wire Wire Line
+	9925 3050 9925 4350
+Wire Wire Line
+	9125 4100 10175 4100
+Wire Wire Line
+	9925 1225 12950 1225
+Wire Wire Line
+	12950 1225 12950 1725
+Wire Wire Line
+	9925 1225 9925 1725
+Wire Wire Line
+	12850 4100 12850 3900
+Wire Wire Line
+	12850 3900 12675 3900
+Wire Wire Line
+	12675 3900 12675 2125
+Wire Notes Line width 20 style solid
+	9850 4025 9850 3525
+Wire Notes Line width 20 style solid
+	9850 3525 9500 3525
+Wire Notes Line width 20 style solid
+	9500 3525 9500 4025
+Wire Notes Line width 20 style solid
+	9500 4025 9850 4025
+Text Notes 9550 3825 0    50   ~ 0
+BS is\nhere
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 60015D0D
+P 11750 3750
+AR Path="/5E22FDCD/60015D0D" Ref="MX?"  Part="1" 
+AR Path="/60015D0D" Ref="MX54"  Part="1" 
+AR Path="/5EB180EA/60015D0D" Ref="MX?"  Part="1" 
+AR Path="/5F706D19/60015D0D" Ref="MX?"  Part="1" 
+F 0 "MX54" H 11783 3973 60  0000 C CNN
+F 1 "MX-NoLED" H 11783 3899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 11125 3725 60  0001 C CNN
+F 3 "" H 11125 3725 60  0001 C CNN
+	1    11750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60015D17
+P 11675 4000
+AR Path="/5E22FDCD/60015D17" Ref="D?"  Part="1" 
+AR Path="/60015D17" Ref="D54"  Part="1" 
+AR Path="/5EB180EA/60015D17" Ref="D?"  Part="1" 
+AR Path="/5F706D19/60015D17" Ref="D?"  Part="1" 
+F 0 "D54" H 11700 4075 50  0000 R CNN
+F 1 "SOD-123" H 12100 4075 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 11675 4000 50  0001 C CNN
+F 3 "~" V 11675 4000 50  0001 C CNN
+	1    11675 4000
+	0    -1   -1   0   
+$EndComp
+Text Notes 11750 4025 0    50   ~ 0
+↑
+Wire Wire Line
+	11700 3900 11675 3900
+Connection ~ 11675 4100
+Wire Wire Line
+	11675 4100 12175 4100
+Connection ~ 11900 3700
+Wire Wire Line
+	11900 3700 11900 4350
+Text Notes 11750 4675 0    50   ~ 0
+↓
+Text Notes 11225 4675 0    50   ~ 0
+<-
+Text Notes 11750 2075 0    50   ~ 0
+/
+Text Notes 11250 2075 0    50   ~ 0
+L
+Text Notes 9925 1125 0    200  ~ 0
+Right Hand
+$Comp
+L Connector:HDMI_A_1.4 J1
+U 1 1 60035CF5
+P 6125 2900
+F 0 "J1" H 6555 2946 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 6555 2855 50  0000 L CNN
+F 2 "miyajima:HDMI_A_Sofng_019S" H 6150 2900 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 6150 2900 50  0001 C CNN
+	1    6125 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1800 5325 1800
+Wire Wire Line
+	4150 2475 4800 2475
+Wire Wire Line
+	5575 3125 5575 2200
+Wire Wire Line
+	4150 3125 5575 3125
+Wire Wire Line
+	4200 3775 5525 3775
+Wire Wire Line
+	1425 4875 5475 4875
+Wire Wire Line
+	1950 4025 1950 4825
+Wire Wire Line
+	2475 4750 5275 4750
+Wire Wire Line
+	2975 4700 5375 4700
+Wire Wire Line
+	5375 4700 5375 2600
+Wire Wire Line
+	5375 2600 5725 2600
+Wire Wire Line
+	2975 4025 2975 4700
+Wire Wire Line
+	3425 4025 3425 4650
+Wire Wire Line
+	3925 4600 5425 4600
+Wire Wire Line
+	4425 4550 5225 4550
+$Comp
+L Connector:HDMI_A_1.4 J4
+U 1 1 5F7BABAB
+P 13500 7200
+F 0 "J4" H 13930 7246 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 13930 7155 50  0000 L CNN
+F 2 "miyajima:HDMI_A_Sofng_019S" H 13525 7200 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 13525 7200 50  0001 C CNN
+	1    13500 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11325 6550 2    50   Input ~ 0
+COL0
+Text GLabel 11325 6650 2    50   Input ~ 0
+COL1
+Text GLabel 11325 6750 2    50   Input ~ 0
+COL2
+Text GLabel 11325 6850 2    50   Input ~ 0
+COL3
+Text GLabel 11325 6950 2    50   Input ~ 0
+COL4
+Text GLabel 11325 7050 2    50   Input ~ 0
+COL5
+Text GLabel 11325 7150 2    50   Input ~ 0
+COL6
+Text GLabel 11325 7250 2    50   Input ~ 0
+ROW0
+Text GLabel 10125 7450 0    50   Input ~ 0
+ROW1
+Text GLabel 10125 7550 0    50   Input ~ 0
+ROW2
+Text GLabel 11325 7350 2    50   Input ~ 0
+ROW3
+Text GLabel 11325 7450 2    50   Input ~ 0
+ROW4
+Wire Wire Line
+	11325 6550 12975 6550
+Wire Wire Line
+	11325 6650 12925 6650
+Wire Wire Line
+	11325 6850 12825 6850
+Wire Wire Line
+	11325 6950 12875 6950
+Wire Wire Line
+	12875 6950 12875 8425
+Wire Wire Line
+	11325 7050 12775 7050
+Wire Wire Line
+	12775 7050 12775 6800
+Wire Wire Line
+	11325 7150 12725 7150
+Wire Wire Line
+	11325 7250 12825 7250
+Wire Wire Line
+	12825 7250 12825 8475
+Wire Wire Line
+	12825 8475 13400 8475
+Wire Wire Line
+	10125 7450 9825 7450
+Wire Wire Line
+	9825 7450 9825 8500
+Wire Wire Line
+	9825 8500 12675 8500
+Wire Wire Line
+	10125 7550 9775 7550
+Wire Wire Line
+	9775 7550 9775 8550
+Wire Wire Line
+	9775 8550 12625 8550
+Wire Wire Line
+	11325 7350 12775 7350
+Wire Wire Line
+	12775 7350 12775 8525
+Wire Wire Line
+	12775 8525 13300 8525
+Wire Wire Line
+	11325 7450 12575 7450
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FBF2785
+P 3550 5725
+AR Path="/5F706D19/5FBF2785" Ref="J?"  Part="1" 
+AR Path="/5FBF2785" Ref="J5"  Part="1" 
+F 0 "J5" H 3468 5400 50  0000 C CNN
+F 1 "Conn_01x02" H 3468 5491 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3550 5725 50  0001 C CNN
+F 3 "~" H 3550 5725 50  0001 C CNN
+	1    3550 5725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FBF42D5
+P 3450 5425
+AR Path="/5E22FDCD/5FBF42D5" Ref="D?"  Part="1" 
+AR Path="/5FBF42D5" Ref="D70"  Part="1" 
+AR Path="/5EB180EA/5FBF42D5" Ref="D?"  Part="1" 
+AR Path="/5F706D19/5FBF42D5" Ref="D?"  Part="1" 
+F 0 "D70" H 3475 5500 50  0000 R CNN
+F 1 "SOD-123" H 3875 5500 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3450 5425 50  0001 C CNN
+F 3 "~" V 3450 5425 50  0001 C CNN
+	1    3450 5425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3925 3325 3550 3325
+Connection ~ 3925 3325
+Wire Wire Line
+	3925 3325 3925 4025
+Wire Wire Line
+	3150 3775 3500 3775
+Wire Wire Line
+	3500 3775 3500 5325
+Wire Wire Line
+	3500 5325 3450 5325
+Connection ~ 3500 3775
+Wire Wire Line
+	3500 3775 4200 3775
+Wire Wire Line
+	3550 3325 3550 5525
+Text GLabel 11325 7550 2    50   Input ~ 0
+COL13
+Text GLabel 10125 7650 0    50   Input ~ 0
+COL12
+Text GLabel 10125 7750 0    50   Input ~ 0
+COL11
+Text GLabel 10125 7850 0    50   Input ~ 0
+COL10
+Text GLabel 10125 7950 0    50   Input ~ 0
+COL9
+Text GLabel 10125 7150 0    50   Input ~ 0
+COL8
+Text GLabel 10125 7250 0    50   Input ~ 0
+COL7
+Connection ~ 4200 4425
+Wire Wire Line
+	5575 2200 5725 2200
+Wire Wire Line
+	5525 3775 5525 4075
+Wire Wire Line
+	5525 4075 5925 4075
+Wire Wire Line
+	5925 4075 5925 4000
+Wire Wire Line
+	5650 4425 5650 2100
+Wire Wire Line
+	5650 2100 5725 2100
+Wire Wire Line
+	4200 4425 5650 4425
+Wire Wire Line
+	4800 2475 4800 2300
+Wire Wire Line
+	4800 2300 5725 2300
+Wire Wire Line
+	5325 1800 5325 4125
+Wire Wire Line
+	5325 4125 6025 4125
+Wire Wire Line
+	6025 4125 6025 4000
+Wire Wire Line
+	5225 2400 5725 2400
+Wire Wire Line
+	5225 2400 5225 4550
+Wire Wire Line
+	5475 4875 5475 2800
+Wire Wire Line
+	5475 2800 5725 2800
+Wire Wire Line
+	1950 4825 6225 4825
+Wire Wire Line
+	5425 4600 5425 2500
+Wire Wire Line
+	5425 2500 5725 2500
+Wire Wire Line
+	6225 4000 6225 4825
+Wire Wire Line
+	6125 4650 6125 4000
+Wire Wire Line
+	3425 4650 6125 4650
+Wire Wire Line
+	5275 4750 5275 2700
+Wire Wire Line
+	5275 2700 5725 2700
+Wire Wire Line
+	12975 6550 12975 7100
+Wire Wire Line
+	12975 7100 13100 7100
+Wire Wire Line
+	12575 7450 12575 6400
+Wire Wire Line
+	12575 6400 13100 6400
+Wire Wire Line
+	12925 6650 12925 8375
+Wire Wire Line
+	13600 8375 13600 8300
+Wire Wire Line
+	12925 8375 13600 8375
+Wire Wire Line
+	13300 8525 13300 8300
+Wire Wire Line
+	12625 6500 13100 6500
+Wire Wire Line
+	12625 6500 12625 8550
+Wire Wire Line
+	13025 6750 13025 7000
+Wire Wire Line
+	13025 7000 13100 7000
+Wire Wire Line
+	11325 6750 13025 6750
+Wire Wire Line
+	12675 6600 13100 6600
+Wire Wire Line
+	12675 6600 12675 8500
+Wire Wire Line
+	12825 6850 12825 6900
+Wire Wire Line
+	12825 6900 13100 6900
+Wire Wire Line
+	13500 8425 13500 8300
+Wire Wire Line
+	12875 8425 13500 8425
+Wire Wire Line
+	13400 8475 13400 8300
+Wire Wire Line
+	12775 6800 13100 6800
+Wire Wire Line
+	12725 6700 13100 6700
+Wire Wire Line
+	12725 6700 12725 7150
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F849272
+P 1725 6350
+F 0 "H1" H 1825 6396 50  0000 L CNN
+F 1 "MountingHole" H 1825 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1725 6350 50  0001 C CNN
+F 3 "~" H 1725 6350 50  0001 C CNN
+	1    1725 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F8736A0
+P 2000 6525
+F 0 "H2" H 2100 6571 50  0000 L CNN
+F 1 "MountingHole" H 2100 6480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2000 6525 50  0001 C CNN
+F 3 "~" H 2000 6525 50  0001 C CNN
+	1    2000 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F875A1A
+P 2400 6725
+F 0 "H3" H 2500 6771 50  0000 L CNN
+F 1 "MountingHole" H 2500 6680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2400 6725 50  0001 C CNN
+F 3 "~" H 2400 6725 50  0001 C CNN
+	1    2400 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F876949
+P 2725 6875
+F 0 "H4" H 2825 6921 50  0000 L CNN
+F 1 "MountingHole" H 2825 6830 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2725 6875 50  0001 C CNN
+F 3 "~" H 2725 6875 50  0001 C CNN
+	1    2725 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F877BA3
+P 3000 7025
+F 0 "H5" H 3100 7071 50  0000 L CNN
+F 1 "MountingHole" H 3100 6980 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 3000 7025 50  0001 C CNN
+F 3 "~" H 3000 7025 50  0001 C CNN
+	1    3000 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F8D4CD8
+P 1525 7900
+F 0 "H6" H 1625 7946 50  0000 L CNN
+F 1 "MountingHole" H 1625 7855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1525 7900 50  0001 C CNN
+F 3 "~" H 1525 7900 50  0001 C CNN
+	1    1525 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F8D4CE2
+P 1800 8075
+F 0 "H7" H 1900 8121 50  0000 L CNN
+F 1 "MountingHole" H 1900 8030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1800 8075 50  0001 C CNN
+F 3 "~" H 1800 8075 50  0001 C CNN
+	1    1800 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5F8D4CEC
+P 2200 8275
+F 0 "H8" H 2300 8321 50  0000 L CNN
+F 1 "MountingHole" H 2300 8230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2200 8275 50  0001 C CNN
+F 3 "~" H 2200 8275 50  0001 C CNN
+	1    2200 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5F8D4CF6
+P 2525 8425
+F 0 "H9" H 2625 8471 50  0000 L CNN
+F 1 "MountingHole" H 2625 8380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2525 8425 50  0001 C CNN
+F 3 "~" H 2525 8425 50  0001 C CNN
+	1    2525 8425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5F8D4D00
+P 2800 8575
+F 0 "H10" H 2900 8621 50  0000 L CNN
+F 1 "MountingHole" H 2900 8530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2800 8575 50  0001 C CNN
+F 3 "~" H 2800 8575 50  0001 C CNN
+	1    2800 8575
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
